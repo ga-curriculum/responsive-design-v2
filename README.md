@@ -10,6 +10,7 @@ This module introduces the basics of responsive design.
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
+| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
 | [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | Introduce the concept of responsive web design. |
 | [Implementation Examples](./implementation-examples/README.md) | tktk min | [tktk Link]() | Demonstrate responsive design with real world examples. |
 | [Planning](./planning/README.md) | tktk min | [tktk Link]() | Learn how to plan responsive web pages using mobile first design and the viewport meta tag. |

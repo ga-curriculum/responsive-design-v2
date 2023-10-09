@@ -20,3 +20,6 @@ Common examples include things like:
 
 One great example of a responsive site is one you’ve become very familiar with: [GitHub](https://github.com).
 
+Another great example is [Shopify](https://www.shopify.com/ca).
+
+News sites also generally implement good mobile responsiveness - especially on higher traffic stories - for example, this [iPad Pro review](https://www.theverge.com/22442084/ipad-pro-2021-review-features-screen-mini-led-m1-processor) by [Dieter Bohn](https://twitter.com/backlon) of The Verge.

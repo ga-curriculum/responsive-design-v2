@@ -55,6 +55,68 @@ Within the query, add some CSS to change the colors of the backgrounds and text.
 
 Next up is a lab that will give you some practice working with **Media Queries**, **CSS Grid**, and **Flexbox**.
 
+
+## Hamburger navbar
+
+Let's create a mobile hamburger navbar using media queries! We want the navbar to appear as a horizontal row of links when the screen is wider than `768px`, and as a hamburger menu when it's smaller than `768px`. 
+
+Naturally, we're going to be using `mobile-first design`, so our media query will accommodate the larger screen, and our main css will design for the smaller screen. 
+
+Stub up your `index.html` file with the boilerplate, and add a link to your stylesheet.
+
+Then add the following inside of your `<body>` tags:
+
+```html
+<body>
+  <header class="header">
+     <nav>
+      <div id="destinations">
+        <p>Home</p>
+        <p>About</p>
+        <p>Shop</p>
+        <p>Contact</p>
+      </div>
+      <div id="destinations-mobile">
+        <p>🍔</p>
+      </div>
+    </nav>
+  </header>
+```
+
+Since we're implementing a mobile-first design - our base CSS is going to hide the `destinations div` and show the `destinations-mobile div`. Our media query will then show the `destinations div` and hide the `destinations-mobile div` when we hit our breakpoint - here’s the only change we’ll make to our base CSS:
+
+```css
+nav > div:first-child {
+  gap: 32px;
+  display: none;
+}
+
+#destinations-mobile {
+  font-size: 24px;
+}
+```
+As you can see - not a lot! `display: none;` is removing the element from the flow of the document and hiding it from the user.
+
+Since we’re interested in conditionally adding CSS as the screen increases in width, our first media query might look like this:
+
+```css
+/* 768px is a common breakpoint width for desktops */
+@media only screen and (min-width: 768px) {
+  nav > div:first-child {
+    display: flex; 
+  }
+
+  #destinations-mobile {
+    display: none;
+  }
+}
+```
+Note that we only add CSS declarations for the properties we want to change. So there’s no reason to repeat any of the CSS above the media query.
+
+Resize the window and check it out!
+
+If you'd like to learn how to make this functional, head to the level up for a walk through.
+
 However, here are a few quick review questions for you:
 
 ## Review Questions ❓

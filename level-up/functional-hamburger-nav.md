@@ -15,7 +15,7 @@ In our `index.html` we'll keep our `css/style.css` linked, but above it let's ad
   <link rel="stylesheet" href="./css/style.css" />
 ```
 
-We're going for a slightly different look this time, ditching the hamburger emoji for a more classic NavBar style. Replace the HTML between the <header> tags with this code::
+We're going for a slightly different look this time, ditching the hamburger emoji for a more classic NavBar style. Replace the HTML between the `<header>` tags with this code:
 
 ```html
     <!-- Logo -->
@@ -170,7 +170,7 @@ Now it's time to style the hamburger menu:
 } /* Hide checkbox */
 ```
 
-In the above code, we styled our `cursor` to display as a `pointer` when a user interracts with our menu. We also positioned our hamburger label to the right of our header, and styled our hamburger icon using the `class: hamb-line` that we placed on our `<span>` tag. 
+In the above code, we styled our `cursor` to display as a `pointer` when a user interacts with our menu. We also positioned our hamburger label to the right of our header, and styled our hamburger icon using the `.hamb-line` class that we placed on our `<span>` tag. 
 
 Notice the use of the `::before` and `::after` pseudo-elements on the `<span>` tag. These allow us to define the appearance of our hamburger icon (the three lines). Specifically, `.hamb-line` styles the middle line, while `.hamb-line::before` and `.hamb-line::after` define the styles for the first and third lines, respectively.
 
@@ -211,7 +211,7 @@ Our toggled menu now looks like this:
 
 ![Toggled hamburger menu](./assets/originals/hamnav-toggled.png)
 
-Onto the last step: adding responsiveness! 
+Onto the last step: Adding responsiveness! 
 
 Since we used a mobile-first design approach, we now need to incorporate media queries to adapt the menu's appearance for users on wider screens.
 

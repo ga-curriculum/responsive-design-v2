@@ -1,18 +1,21 @@
-# [tktk Module Name]
+# Responsive Design
 
 ![Hero image](./assets/tktkhero-main.png)
 
 ## Module overview
 
-tktk What is the takeaway of this module?
+This module introduces the basics of responsive design. 
 
 ## Content outline
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [tktk Microlesson Name](./tktk-microlesson-01/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-02/README.md) | tktk min | [tktk Link]() | tktk topics covered |
-| [tktk Microlesson Name](./tktk-microlesson-03/README.md) | tktk min | [tktk Link]() | tktk topics covered |
+| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
+| [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | Introduce the concept of responsive web design. |
+| [Implementation Examples](./implementation-examples/README.md) | tktk min | [tktk Link]() | Demonstrate responsive design with real world examples. |
+| [Planning](./planning/README.md) | tktk min | [tktk Link]() | Learn how to plan responsive web pages using mobile first design and the viewport meta tag. |
+| [Media Queries](./media-queries/README.md) | tktk min | [tktk Link]() | Use media queries and breakpoints to create responsive web pages. |
+| [Best Practices](./best-practices/README.md) | tktk min | [tktk Link]() | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
 |  **Total Module**                                        | tktk min | ---           | ---                 |
 
 ## Additional content 

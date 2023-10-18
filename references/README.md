@@ -1,4 +1,4 @@
-# [tktk Module Name] - References
+# Responsive Design - References
 
 ![Hero image](./assets/hero.png)
 
@@ -6,8 +6,8 @@
 
 Links from lessons:
 
-- [tktk descriptive name of link]()
+- [Pew Research Mobile Fact Sheet](https://www.pewresearch.org/internet/fact-sheet/mobile/)
 
-- [tktk descriptive name of link]()
+- [MDN Transform Documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
 
-- [tktk descriptive name of link]()
+- [Flaticon](https://www.flaticon.com/)

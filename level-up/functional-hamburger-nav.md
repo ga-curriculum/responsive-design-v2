@@ -205,7 +205,7 @@ First, this code sets the `max-height` of our nav when the checkbox is clicked.
 
 To enhance the visual feedback for users, we've implemented a clever animation that transforms the three hamburger lines into an 'X' shape when clicked. This visual cue clearly indicates to the user that the menu has been toggled.
 
-We achieve this by setting the `background` of the `.hamb-line` element to `transparent`, effectively hiding the middle line of the hamburger icon. Simultaneously, we use the `transform: rotate` property to rotate the top and bottom lines by 45 degrees clockwise and 45 degrees counter-clockwise, respectively.
+We achieve this by setting the `background` of the `.hamb-line` element to `transparent`, effectively hiding the middle line of the hamburger icon. Simultaneously, we use the `transform: rotate` property to rotate the top and bottom lines by 45 degrees clockwise and 45 degrees counter-clockwise, respectively. To learn more about the `transform` property and how to use it, check out the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
 
 Our toggled menu now looks like this:
 

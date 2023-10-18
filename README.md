@@ -24,9 +24,9 @@ This module introduces the basics of responsive design.
 
 ### 🚀 Level Up
 
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-01.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-02.md)
-- [tktk Level Up Microlesson Name](./level-up/tktk-microlesson-03.md)
+- [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md)
+- [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)
+
 
 ## Internal resources
 

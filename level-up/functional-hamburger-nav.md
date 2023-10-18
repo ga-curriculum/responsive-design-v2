@@ -4,7 +4,7 @@
 
 In order to make our navbar functional using pure CSS, we're going to overhaul most of the code from the [Media Queries](../media-queries/README.md) lesson.
 
-## Setting up our NavBar
+## Setting up our navbar
 
 In our `index.html` we'll keep our `css/style.css` linked, but above it let's add a Google Fonts `<link>` tag for our logo symbol.
 
@@ -15,7 +15,7 @@ In our `index.html` we'll keep our `css/style.css` linked, but above it let's ad
   <link rel="stylesheet" href="./css/style.css" />
 ```
 
-We're going for a slightly different look this time, ditching the hamburger emoji for a more classic NavBar style. Replace the HTML between the `<header>` tags with this code:
+We're going for a slightly different look this time, ditching the hamburger emoji for a more classic navbar style. Replace the HTML between the `<header>` tags with this code:
 
 ```html
     <!-- Logo -->
@@ -40,7 +40,7 @@ To make our hamburger menu work its magic, we'll use a `checkbox input` that'll 
 
 ## Styling our UI
 
-Now it's time to style our NavBar. Delete all rules in your `css/style.css`. and add the following code instead:
+Now it's time to style our navbar. Delete all rules in your `css/style.css`. and add the following code instead:
 
 ```css
 /* import our font */
@@ -96,7 +96,7 @@ Now that we've got some basic css rules, let's add styling to our header and log
 
 By adding `position: sticky` and `top: 0` to our `.logo` class, we're telling the header to stay put at the top of the screen even as we scroll down.
 
-Our CSS styling gives us a somewhat decent-looking NavBar, but there are a couple of issues: the checkbox is visible, and the link text color is hard to read.
+Our CSS styling gives us a somewhat decent-looking navbar, but there are a couple of issues: the checkbox is visible, and the link text color is hard to read.
 
 ![Hamburger NavBar with very basic styling](./assets/originals/hamnav-basic-styling.png)
 
@@ -240,9 +240,9 @@ Since we used a mobile-first design approach, we now need to incorporate media q
 }  
 ```
 
-This media query will display the following horizontal NavBar for users on screens that are at least `768px` wide:
+This media query will display the following horizontal navbar for users on screens that are at least `768px` wide:
 
-![Horizontal NavBar on wider screen](./assets/originals/wide-navbar.png)
+![Horizontal navbar on wider screen](./assets/originals/wide-navbar.png)
 
 
 Congrats! Now you have a fully responsive hamburger menu. Head over to the [Product Cards Flexbox](./product-cards-flex.md) level up to learn how to implement responsiveness with flexbox alone -- no media queries required!

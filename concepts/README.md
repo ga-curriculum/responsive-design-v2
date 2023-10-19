@@ -29,7 +29,7 @@ As technology advances, non "traditional" screen sizes have skyrocketed in popul
 Like many things, responsive design has benefits and challenges. 
 
 Benefits:
-  - **Improved user experience**: RWD ensures that users have a good experience on our website, regardless of the device they are using. 
+  - **Improved user experience**: RWD (Responsive Web Design) ensures that users have a good experience on our website, regardless of the device they are using. 
   - **Increased reach and traffic**: allows us to reach a wider audience and attract more traffic to your website, as it is now accessible to users on all devices.
   - **Improved SEO**: RWD is beneficial for our website's SEO, as it avoids duplicate content issues and improves loading speed and performance.
   - **Better conversion rates**: can lead to better conversion rates, as users are more likely to convert on a website that is easy to use and navigate.

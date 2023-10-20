@@ -1,42 +1,30 @@
-# Responsive Design - Concepts
+# ![Responsive Design - Concepts](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be introduced to the concept of responsive web design.
+**Learning objective:** By the end of this lesson, students will be introduced to the concept of responsive design.
 
 ## Background
-Not that long ago, building a successful online presence meant just ensuring that your website worked correctly in all the major desktop browsers, and the mobile internet looked like this:
+
+While it's now in the distant past, building a successful online presence used to only mean ensuring that a website worked correctly on a few desktop browsers. The mobile internet looked like this:
 
 ![Motorolla Razr 2005](./assets/originals/razr.png)
-*The mobile internet in 2005. Image: [Wired](https://www.wired.com/2008/07/mobile-browsing/)*
+> The mobile internet in 2005. Image: [Wired](https://www.wired.com/2008/07/mobile-browsing/)
 
-Fast forward to today, and desktop browsing is rapidly being replaced by surfing on mobile devices.
+Today, users are more likely to visit websites using a mobile browser than a desktop browser. Because of this, modern websites and applications are typically designed to work across many devices by utilizing responsive design.
 
-According to [Pew Research](https://www.pewresearch.org/internet/fact-sheet/mobile/), over 85% percent of American adults now own a smartphone, and well over 50% of web pages are served to smartphones **globally**!
+## What is responsive design?
 
-![Graph of mobile phone ownership](assets/originals/mobile-ownership.png)
-*Web sites and applications designed just for desktop displays don't cut it anymore!*
+Responsive design is a technique for designing and developing websites and apps that adapt to different screen sizes and devices. It allows us to create apps that feel at home on whatever device the app is viewed on. Specifically, the most critical criterion to respond to is the width of the device's screen.
 
-## What is responsive web design and why is it important?
+When we implement responsive design we also consider and accept some of the limitations of different devices. Making apps respond to mobile devices may mean exposing fewer features to mobile users. Similarly, building features designed for touch input will limit those features to devices with touch input.
 
-**Responsive Web Design**, as you may have guessed, is a technique for designing and developing websites that can adapt to different screen sizes and devices. It allows us to create sites that look good and function well on all devices. Specifically, the most critical criteria to respond to is the width of the device’s screen.
+Whether you're aware or not, you encounter examples of responsive design every time you use the internet! Common examples include things like:
+  
+- **Navbar responsiveness:** The navbar of a desktop site might be horizontal, with links spanning the width of the page, while a mobile site might have a hamburger menu that expands into a vertical list when clicked. 
 
-As technology advances, non "traditional" screen sizes have skyrocketed in popularity, and users are accessing the web from all manner of devices. Designing for different screen sizes ensures that our users have a positive experience on our sites. 
+- **Image size:** Desktop sites can account for large image sizes, but mobile sites need smaller or adaptive images in order to fit the screen without any unintended cropping.
 
+## Why implement responsive design?
 
-## Benefits and challenges of responsive web design
+Non-traditional interfaces have skyrocketed in popularity, and users access the web from all kinds of devices. Responsive design ensures that more people can use our applications to begin with. Furthermore, it enables them to have a positive experience using our apps, regardless of how they interact with them.
 
-Like many things, responsive design has benefits and challenges. 
-
-Benefits:
-  - **Improved user experience**: RWD (Responsive Web Design) ensures that users have a good experience on our website, regardless of the device they are using. 
-  - **Increased reach and traffic**: allows us to reach a wider audience and attract more traffic to your website, as it is now accessible to users on all devices.
-  - **Improved SEO**: RWD is beneficial for our website's SEO, as it avoids duplicate content issues and improves loading speed and performance.
-  - **Better conversion rates**: can lead to better conversion rates, as users are more likely to convert on a website that is easy to use and navigate.
-
-Challenges:
--  **Complexity**: RWD can be more complex to design and develop than traditional web design, because we need to consider how the website will look and function on a variety of devices.
--  **Design limitations**: since we need to account for the capabilities of different devices, we may encounter design limitations. For example, you may need to use simpler designs and fewer features on mobile devices.
--  **Testing**: to ensure that they look and function as expected, RWD sites need to be tested on a variety of devices which can be time-consuming. 
-
-Despite the challenges, responsive web design is a valuable approach for creating websites that are accessible and user-friendly on all devices. The benefits of RWD outweigh the challenges, and it is an essential consideration for any website owner in today's digital world.
+That's not to say that there are no challenges to implementing responsive design. By it's nature, implementing responsive design requires more planning, more code, and more testing. The benefits outweigh the challenges though, and it is an essential consideration for any website or app.

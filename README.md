@@ -2,31 +2,36 @@
 
 ![Hero image](./assets/tktkhero-main.png)
 
-## Module overview
+## About
 
-This module introduces the basics of responsive design. 
+This module introduces the basics of responsive design.
 
-## Content outline
+## Prerequisites
+
+tktk
+
+## Content
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md) | tktk min | [tktk Link]() | --- |
-| [Concepts](./concepts/README.md) | tktk min | [tktk Link]() | Introduce the concept of responsive web design. |
-| [Implementation Examples](./implementation-examples/README.md) | tktk min | [tktk Link]() | Demonstrate responsive design with real world examples. |
-| [Planning](./planning/README.md) | tktk min | [tktk Link]() | Learn how to plan responsive web pages using mobile first design and the viewport meta tag. |
-| [Media Queries](./media-queries/README.md) | tktk min | [tktk Link]() | Use media queries and breakpoints to create responsive web pages. |
-| [Best Practices](./best-practices/README.md) | tktk min | [tktk Link]() | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
-|  **Total Module**                                        | tktk min | ---           | ---                 |
+| [Setup](./setup/README.md)                                     | -- | -- | --                                                                                                              |
+| [Concepts](./concepts/README.md)                               | -- | -- | Introduce the concept of responsive web design.                                                                 |
+| [Implementation Examples](./implementation-examples/README.md) | -- | -- | Demonstrate responsive design with real world examples.                                                         |
+| [Planning](./planning/README.md)                               | -- | -- | Learn how to plan responsive web pages using mobile first design and the viewport meta tag.                     |
+| [Media Queries](./media-queries/README.md)                     | -- | -- | Use media queries and breakpoints to create responsive web pages.                                               |
+| [Best Practices](./best-practices/README.md)                   | -- | -- | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
+|  **Total Module**                                              | -- | -- | --                                                                                                              |
 
-## Additional content 
+### Level Up content
+
+| Lesson | Video Time | Video | Topics Covered |
+| ------ |:----------:|:-----:| -------------- |
+| [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md) | -- | -- | tktk |
+| [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)          | -- | -- | tktk |
+
+## References
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up
-
-- [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md)
-- [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)
-
 
 ## Internal resources
 

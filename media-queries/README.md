@@ -83,7 +83,7 @@ Then add the following inside of your `<body>` tags:
   </header>
 ```
 
-Since we're implementing a mobile-first design - our base CSS is going to hide the `destinations div` and show the `destinations-mobile div`. Our media query will then show the `destinations div` and hide the `destinations-mobile div` when we hit our breakpoint - here’s the only change we’ll make to our base CSS:
+Since we're implementing a mobile-first design - our base CSS is going to hide the `destinations div` and show the `destinations-mobile div`. Our media query will then show the `destinations div` and hide the `destinations-mobile div` when we hit our breakpoint - here's the only change we'll make to our base CSS:
 
 ```css
 nav > div:first-child {
@@ -97,7 +97,7 @@ nav > div:first-child {
 ```
 As you can see - not a lot! `display: none;` is removing the element from the flow of the document and hiding it from the user.
 
-Since we’re interested in conditionally adding CSS as the screen increases in width, our first media query might look like this:
+Since we're interested in conditionally adding CSS as the screen increases in width, our first media query might look like this:
 
 ```css
 /* 768px is a common breakpoint width for desktops */
@@ -111,7 +111,7 @@ Since we’re interested in conditionally adding CSS as the screen increases in 
   }
 }
 ```
-Note that we only add CSS declarations for the properties we want to change. So there’s no reason to repeat any of the CSS above the media query.
+Note that we only add CSS declarations for the properties we want to change. So there's no reason to repeat any of the CSS above the media query.
 
 Resize the window and check it out!
 
@@ -123,5 +123,5 @@ However, here are a few quick review questions for you:
 
 1. **In your own words, describe Responsive Design.**
 2. **When coding an app that we want to make responsive, is it more common to write the “base” CSS for mobile screens or desktops?**
-3. **What key CSS feature did we learn about that’s fundamental to the implementation of responsive design?**
+3. **What key CSS feature did we learn about that's fundamental to the implementation of responsive design?**
 

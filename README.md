@@ -14,13 +14,13 @@ tktk
 
 | Lesson | Video Time | Video | Topics Covered |
 | ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md)                                     | -- | -- | --                                                                                                              |
-| [Concepts](./concepts/README.md)                               | -- | -- | Introduce the concept of responsive web design.                                                                 |
-| [Implementation Examples](./implementation-examples/README.md) | -- | -- | Demonstrate responsive design with real world examples.                                                         |
-| [Planning](./planning/README.md)                               | -- | -- | Learn how to plan responsive web pages using mobile first design and the viewport meta tag.                     |
-| [Media Queries](./media-queries/README.md)                     | -- | -- | Use media queries and breakpoints to create responsive web pages.                                               |
-| [Best Practices](./best-practices/README.md)                   | -- | -- | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
-|  **Total Module**                                              | -- | -- | --                                                                                                              |
+| [Setup](./setup/README.md)                                                 | -- | -- | --                                                                                                              |
+| [Concepts](./concepts/README.md)                                           | -- | -- | Introduce the concept of responsive web design.                                                                 |
+| [Implementation Examples](./implementation-examples/README.md)             | -- | -- | Demonstrate responsive design with real world examples.                                                         |
+| [Accounting for Moblie Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Learn how to plan responsive web pages using mobile first design and the viewport meta tag.                     |
+| [Media Queries](./media-queries/README.md)                                 | -- | -- | Use media queries and breakpoints to create responsive web pages.                                               |
+| [Best Practices](./best-practices/README.md)                               | -- | -- | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
+|  **Total Module**                                                          | -- | -- | --                                                                                                              |
 
 ### Level Up content
 

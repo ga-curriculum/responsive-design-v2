@@ -19,7 +19,6 @@ tktk example
 
 ```
 
-
 We can also combine multiple media queries to create more complex conditions. For example, the following media query will apply the CSS rules inside the block to all desktop devices with a screen width of less than 1200 pixels and a screen ratio of 16:9:
 
 ```css
@@ -122,6 +121,6 @@ However, here are a few quick review questions for you:
 ## Review Questions ❓
 
 1. **In your own words, describe Responsive Design.**
-2. **When coding an app that we want to make responsive, is it more common to write the “base” CSS for mobile screens or desktops?**
+2. **When coding an app that we want to make responsive, is it more common to write the "base" CSS for mobile screens or desktops?**
 3. **What key CSS feature did we learn about that's fundamental to the implementation of responsive design?**
 

@@ -12,13 +12,13 @@ mkdir responsive-design
 cd responsive-design
 ```
 
-Create a folder called `css`:
+Create a directory called `css`:
 
 ```bash
 mkdir css
 ```
 
-Then, create an `index.html` file, as well as a `style.css` file inside the `css` folder. These files will hold your work for this lecture:
+Then, create an `index.html` file, as well as a `style.css` file inside the `css` directory. These files will hold your work for this lecture:
 
 ```bash
 touch index.html css/style.css

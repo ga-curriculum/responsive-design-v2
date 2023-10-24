@@ -4,123 +4,138 @@
 
 **Learning objective:** By the end of this lesson, students will be able to use media queries and breakpoints to create responsive web pages.
 
-Media queries are a CSS feature that allow us to apply different CSS rules to a page depending on the characteristics of the device or environment in which the page is being displayed. For example, we can use media queries to change the layout of our page for different screen sizes, or to hide or show certain elements on printouts.
-
 ## Using media queries to apply different CSS rules to a page
 
-To use a media query, we wrap the CSS rules that we want to apply conditionally in a @media block. The @media block specifies the conditions that must be met for the CSS rules to be applied.
+[Media queries](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_media_queries/Using_media_queries) are a CSS feature that allows us to apply different rules to a page depending on a device's characteristics. For example, we can use media queries to change the layout of our page for different screen sizes. We could even hide or show specific elements when printing the page with a printer.
 
-tktk example
+To use a media query, we wrap the CSS rules we want to apply conditionally in an `@media` block. The `@media` block specifies the conditions that must be met for the CSS rules to apply.
 
 ```css
-@media (max-width: 600px) {
-  /* CSS rules for small screens */
+body {
+  background-color: lightsalmon;
 }
 
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 ```
 
-We can also combine multiple media queries to create more complex conditions. For example, the following media query will apply the CSS rules inside the block to all desktop devices with a screen width of less than 1200 pixels and a screen ratio of 16:9:
+We can also combine multiple media queries to create more complex conditions. For example, the following media query will apply the CSS rules inside the block to all desktop devices with a screen width of less than 1200 pixels:
 
 ```css
-@media (min-width: 768px) and (max-width: 1199px) and (aspect-ratio: 16/9) {
-  /* CSS rules for desktop devices with a screen width of less than 1200 pixels and a screen ratio of 16:9 */
+@media (min-width: 768px) and (max-width: 1199px) {
+  /* CSS rules for with a screen width of greater than 768px 
+     and fewer than 1200 pixels */
 }
-
 ```
 
 ## Breakpoints
 
-Breakpoints are the specific screen sizes or other conditions that we use to create media queries. Common breakpoints include:
+Breakpoints are the specific screen sizes or conditions we use to create media queries. Common breakpoints include:
 
-Mobile: 320px - 480px
-Tablet: 481px - 767px
-Desktop: 768px - 1199px
-Large desktop: 1200px+
+- Mobile: 320px - 480px
+- Tablet: 481px - 767px
+- Desktop: 768px - 1199px
+- Large desktop: 1200px+
 
-Of course, we can use any breakpoints that make sense for our website or web application, and we should always choose our breakpoints based on our content. 
+While the above values are good general guidelines, it's important to recognize that desktop users can resize their browser window to any width. Also, nothing stops a phone manufacturer from making a phone that doesn't conform to the above rules. For example, in landscape orientation, the iPhone 15 Pro Max has a viewport width of over 800 pixels, putting it firmly into our supposed desktop viewport territory. Therefore, you should focus your energy on making breakpoints that make sense for your application, and you should always choose breakpoints based on a site's content. 
 
+## Order matters
 
-## Order may matter
+The order in which we write media queries matters. For example, if two media queries apply to the same device, the browser will use the second one that matches, even if it's not what you might have intended.
 
-The order of our media queries can matter, depending on the conditions that we are checking for. For example, if we have two media queries that both apply to the same device, the browser will apply the first media query that matches.
+Let's say we wanted to create a mobile-first design where we intend to apply these rules:
 
-To avoid this, we should put our media queries in order of most specific to least specific. For example, if we have a media query for mobile devices and a media query for tablet devices, we should put the media query for mobile devices first.
+- The background of the body element should be `lightsalmon` when the viewport is smaller than 600 pixels in width. 
+- The background should be `lightgreen` when the viewport is between 600 pixels and 800 pixels in width
+- The background should be `gainsboro` when the viewport is 800 pixels wide or more.
 
-## 🧠 You do
-
-Add another media query for a breakpoint at `(min-width: 1024px)` - a common breakpoint width for desktop displays.
-
-Within the query, add some CSS to change the colors of the backgrounds and text.
-
-Next up is a lab that will give you some practice working with **Media Queries**, **CSS Grid**, and **Flexbox**.
-
-
-## Hamburger navbar
-
-Let's create a mobile hamburger navbar using media queries! We want the navbar to appear as a horizontal row of links when the screen is wider than `768px`, and as a hamburger menu when it's smaller than `768px`. 
-
-Naturally, we're going to be using `mobile-first design`, so our media query will accommodate the larger screen, and our main css will design for the smaller screen. 
-
-Stub up your `index.html` file with the boilerplate, and add a link to your stylesheet.
-
-Then add the following inside of your `<body>` tags:
-
-```html
-<body>
-  <header class="header">
-     <nav>
-      <div id="destinations">
-        <p>Home</p>
-        <p>About</p>
-        <p>Shop</p>
-        <p>Contact</p>
-      </div>
-      <div id="destinations-mobile">
-        <p>🍔</p>
-      </div>
-    </nav>
-  </header>
-```
-
-Since we're implementing a mobile-first design - our base CSS is going to hide the `destinations div` and show the `destinations-mobile div`. Our media query will then show the `destinations div` and hide the `destinations-mobile div` when we hit our breakpoint - here's the only change we'll make to our base CSS:
+This CSS would help accomplish these goals:
 
 ```css
-nav > div:first-child {
-  gap: 32px;
-  display: none;
+body {
+  background-color: lightsalmon;
 }
 
-#destinations-mobile {
-  font-size: 24px;
-}
-```
-As you can see - not a lot! `display: none;` is removing the element from the flow of the document and hiding it from the user.
-
-Since we're interested in conditionally adding CSS as the screen increases in width, our first media query might look like this:
-
-```css
-/* 768px is a common breakpoint width for desktops */
-@media only screen and (min-width: 768px) {
-  nav > div:first-child {
-    display: flex; 
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
   }
+}
 
-  #destinations-mobile {
-    display: none;
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
   }
 }
 ```
-Note that we only add CSS declarations for the properties we want to change. So there's no reason to repeat any of the CSS above the media query.
 
-Resize the window and check it out!
+If the viewport is 900px wide, the background will be gainsboro, as intended. But the cascade still applies to media queries, so if we start moving our rules around, then things will start to break:
 
-If you'd like to learn how to make this functional, head to the level up for a walk through.
+```css
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
 
-However, here are a few quick review questions for you:
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
+  }
+}
 
-## Review Questions ❓
+body {
+  background-color: lightsalmon;
+}
+```
 
-1. **In your own words, describe Responsive Design.**
-2. **When coding an app that we want to make responsive, is it more common to write the "base" CSS for mobile screens or desktops?**
-3. **What key CSS feature did we learn about that's fundamental to the implementation of responsive design?**
+Because the last `body` rule in the document applies universally and sets the background color to `lightsalmon`, the background color will always be `lightsalmon`, no matter how wide the browser viewport is.
 
+Here's another example:
+
+```css
+body {
+  background-color: lightsalmon;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
+  }
+}
+
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+```
+
+Here, we've moved the main `body` rule back to the top and moved the media query for screens 600 pixels and larger to the bottom. This change makes it so that when the viewport width is 600 pixels or larger, the background color will be `lightgreen` (and `lightsalmon` when the viewport is less than 600 pixels). Again, because of the cascade, the background color will never be `gainsboro`.
+
+Note we could use multiple media queries to make the media query for screens 600 pixels and larger a little more specific so that it doesn't apply to all screens above 600 pixels, like so:
+
+```css
+body {
+  background-color: lightsalmon;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: gainsboro;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 799px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+```
+
+When the screen is 800 pixels or larger, the background color will change to `gainsboro`, as we originally intended.
+
+The big takeaway is that, like always, the order in which you write your CSS matters. However, media queries add layers of complication you must also consider. Media queries should always appear after all other CSS, and it's important to test your implementation of them.

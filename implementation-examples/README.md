@@ -4,18 +4,20 @@
 
 ## Responsive design in the real world
 
-Again, you encounter responsive design on almost any site you visit on the web, but these are particularly strong examples:
+Again, you encounter responsive design on almost any site you visit on the web, but these are solid examples:
 
-[Shopify](https://www.shopify.com/) is a great example of using responsive design to elevate a message. 
+[Shopify](https://www.shopify.com/) offers an example of using responsive design to elevate a message. 
 
-When you go to their site, whether it's on a mobile device with a five inch screen or a desktop device with a 34 inch screen, the first thing you see is a *call to action*. 
+When you go to their site, whether on a mobile device with a five-inch screen or a desktop device with a 34-inch screen, the first thing you see is a *call to action*. 
 
-A call to action is a prompt that urges a user to take a specific action (typically a call to action will lead to the user becoming a customer). In this case the call to action is asking the user to sign up for a trial.
+A call to action is a prompt that urges a user to take a specific action. Typically, a call to action will lead to the user becoming a customer. In this case, the call to action asks the user to sign up for a trial.
 
-Anoter example of a responsive site is one you've become very familiar with - [GitHub](https://github.com).
+Another example of a responsive site is one you've become familiar with - [GitHub](https://github.com).
 
-GitHub's responsive design goes futher than just design considerations. Their responsive design goes as far as hiding certain features on mobile devices. This works for GitHub's user's because the likelyhood of someone wanting to create a repo on a mobile device is very small. 
+GitHub's responsive design goes further than just design considerations. Their responsive design goes as far as hiding certain features on mobile devices. This works for GitHub's users because the likelihood of someone wanting to create a repo on a mobile device is minimal. 
 
-While their users may not be doing things like creating repos from their mobile devices, they are likely to be using its social features. Therefore, these features are given more prominance.
+While their users may not create repos from their mobile devices, they will likely use its social features. Therefore, these features are given more prominence.
 
-There are many approaches that can be taken to implementing responsive design, and the final implementation will ultimately depend on the goals of the website in question.
+Many approaches can be taken to implement responsive design, and the final implementation will ultimately depend on the goals of the application in question.
+
+tktk Hunter, some screenshots here of the above sites might be nice. Feel like a side-by-side of mobile and desktop views would work well?

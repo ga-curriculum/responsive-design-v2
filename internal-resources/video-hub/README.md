@@ -1,4 +1,4 @@
-# [tktk Module Name] - Video Hub
+# Responsive Design - Video Hub
 
 ![Hero image](../../assets/tktkhero-secondary.png)
 

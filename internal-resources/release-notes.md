@@ -1,21 +1,27 @@
-# [tktk Module Name] - Release Notes
+# Responsive Design - Release Notes
 
 ![Hero image](../assets/tktkhero-secondary.png)
 
 ## Version 1.0 - Updates from legacy content
 
-This release modularizes the legacy [tktk previous lecture name] lecture and provides some other minor updates detailed below. Updates are provided here at the module level, but all subsequent updates should be documented at the lesson level.
+This release modularizes the legacy Responsive Web Design lecture and provides some other minor updates detailed below. Updates are provided here at the module level, but all subsequent updates should be documented at the lesson level.
 
 ### Release details
 
 **Additions**
 
-
+- Add Level Up content that walks through creating a functional hamburger menu with HTML and CSS.
+- Add Level Up content displaying an implementation of responsive design utilizing flexbox.
+- Add Level Up content to introduce CSS math functions - `clamp()`, `min()`, `max()`, and `minmax()`.
 
 **Changes**
 
-
+- Expand on written lecture material to provide a more straightforward outline for instructors to deliver content with and to provide more thorough written documentation for students.
+- Update content to be style guide compliant.
+- Update setup materials to use VS Code.
+- Update assets throughout.
+- Change lecture content to use a nav bar example that is more applicable to students, with simpler starter code.
 
 **Removals**
 
-
+- Remove many dated examples and uncited statistics from lecture content.

@@ -2,6 +2,8 @@
 
 ![Hero image](./assets/hero.png)
 
+tktk Hunter, and carry the work you do in the functional hamburger level up through here as well.
+
 Remember that awesome hamburger menu we built in the[Functional Hamburger Nav](./functional-hamburger-nav.md) level up?  In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
 
 In `index.html`, add the following code below the closing `</header` tag:

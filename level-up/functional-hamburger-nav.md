@@ -4,6 +4,8 @@
 
 In order to make our navbar functional using pure CSS, we're going to overhaul most of the code from the [Media Queries](../media-queries/README.md) lesson.
 
+Tktk Hunter, this is probably a bit out of scope for what you'd typically do, but while asset requests are light, could you go through and simplify this content? I like the general idea of what's happening here, but would like to just clean this up a little bit (also new screenshots as you go would be cool). This is pretty low priority, and should generally be the last thing on your list. Lmk when you're done and I'll come back and do an edit sweep. Also lmk if you have any questions about any of this. Would definitely prefer not to use external fonts for this work. Simpler is better, while still accomplishing the main functionality.
+
 ## Setting up our navbar
 
 In our `index.html` we'll keep our `css/style.css` linked, but above it let's add a Google Fonts `<link>` tag for our logo symbol.
@@ -32,6 +34,7 @@ We're going for a slightly different look this time, ditching the hamburger emoj
         <li><a href="/">About</a></li>
         <li><a href="/">Shop</a></li>
         <li><a href="/">Contact</a></li>
+        <li><a href="/">Climate Pledge</a></li>
       </ul>
     </nav>
 ```
@@ -49,7 +52,6 @@ Now it's time to style our navbar. Delete all rules in your `css/style.css`. and
 /* reset our css */
 *{
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 

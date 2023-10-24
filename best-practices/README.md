@@ -6,26 +6,16 @@
 
 ## Test your website on different devices
 
-It is important to test our responsive website on different devices to ensure that it looks and functions as expected. We can use a variety of tools to test our website on different devices, such as:
-
-  - Browser emulators and simulators: Browser emulators and simulators allow us to test our website on different devices without actually having to own those devices. Popular browser emulators and simulators include BrowserStack, LambdaTest, and Sauce Labs.
-
-And, of course:
-
-  - Real devices: The best way to test our responsive website is to use real devices. We can borrow devices from friends and family, or we can use a device testing service.
+Testing our responsive website on different devices is important to ensure that it looks and functions as expected. Testing on the same devices your users will use to access your app is ideal but often impractical. Therefore, tools such as the [Device Toolbar in Chrome](https://developer.chrome.com/docs/devtools/device-mode/#viewport) can help accomplish this.
 
 When testing a responsive website, pay attention to the following:
 
-  - **Layout**: Does the layout of our website look good on all devices?
-  - **Content**: Is all of the content on our website visible and accessible on all devices?
-  - **Navigation**: Is it easy to navigate our website on all devices?
-  - **Forms**: Do our website's forms work properly on all devices?
-  - **Interactivity**: Do our website's interactive elements work properly on all devices?
-
-
+  - **Layout:** Does the layout of our website match our intent?
+  - **Content:** Is all of the content on our website visible and accessible?
+  - **Navigation:** Is it easy to navigate our website?
+  - **Forms:** Do our website's forms work properly?
+  - **Interactivity:** Do our website's interactive elements function as intended?
 
 ## Progressive enhancement
 
-Progressive enhancement is a way to design websites that work for everyone, regardless of their device or browser. It starts with creating a basic version of the website with all the essential content and features. Then, you can add on more features and enhancements for users with more powerful devices and browsers.
-
-To implement progressive enhancement, start by creating a simple HTML document with the core content and features of your website. Then, use CSS to style the content and layout. Finally, use JavaScript to add additional features and enhancements, such as interactivity and animations.
+Progressive enhancement is a way to design websites that work for everyone, regardless of their device or browser. It starts with creating a basic version of the website with all the essential content and features. Then, you can add more features and enhancements for users with more powerful devices and browsers.

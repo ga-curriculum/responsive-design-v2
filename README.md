@@ -19,6 +19,7 @@ tktk
 | [Implementation Examples](./implementation-examples/README.md)             | -- | -- | Demonstrate responsive design with real world examples.                                                         |
 | [Accounting for Moblie Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Learn how to plan responsive web pages using mobile first design and the viewport meta tag.                     |
 | [Media Queries](./media-queries/README.md)                                 | -- | -- | Use media queries and breakpoints to create responsive web pages.                                               |
+| [Nav Bar Media Query](./nav-bar-media-query/README.md)                       | -- | -- | Apply a media query to a navbar.                                                                                |
 | [Best Practices](./best-practices/README.md)                               | -- | -- | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
 |  **Total Module**                                                          | -- | -- | --                                                                                                              |
 
@@ -28,6 +29,7 @@ tktk
 | ------ |:----------:|:-----:| -------------- |
 | [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md) | -- | -- | tktk |
 | [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)          | -- | -- | tktk |
+| [A Media Query Free Future](./level-up/a-media-query-free-future.md)           | -- | -- | tktk |
 
 ## References
 

@@ -15,7 +15,7 @@ Today, users are more likely to visit websites using a mobile browser than a des
 
 Responsive design is a technique for designing and developing websites and apps that adapt to different screen sizes and devices. It allows us to create apps that feel at home on whatever device the app is viewed on. Specifically, the most critical criterion to respond to is the width of the device's screen.
 
-When we implement responsive design we also consider and accept some of the limitations of different devices. Making apps respond to mobile devices may mean exposing fewer features to mobile users. Similarly, building features designed for touch input will limit those features to devices with touch input.
+When we implement responsive design, we also consider and accept the limitations of different devices. Making apps respond to mobile devices may mean exposing fewer features to mobile users. Similarly, building features designed for touch input will limit those features to devices with touch input.
 
 Whether you're aware or not, you encounter examples of responsive design every time you use the internet! Common examples include things like:
   
@@ -27,4 +27,4 @@ Whether you're aware or not, you encounter examples of responsive design every t
 
 Non-traditional interfaces have skyrocketed in popularity, and users access the web from all kinds of devices. Responsive design ensures that more people can use our applications to begin with. Furthermore, it enables them to have a positive experience using our apps, regardless of how they interact with them.
 
-That's not to say that there are no challenges to implementing responsive design. By it's nature, implementing responsive design requires more planning, more code, and more testing. The benefits outweigh the challenges though, and it is an essential consideration for any website or app.
+That's not to say there are no challenges to implementing responsive design. By its nature, implementing responsive design requires more planning, more code, and more testing. The benefits typically outweigh the challenges though, and it is an essential consideration for any website or app.

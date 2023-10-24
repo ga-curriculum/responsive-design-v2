@@ -26,3 +26,4 @@ This release modularizes the legacy Responsive Web Design lecture and provides s
 **Removals**
 
 - Remove many dated examples and uncited statistics from lecture content.
+- Remove low-quality review questions.

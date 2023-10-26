@@ -79,7 +79,7 @@ By adding `position: sticky` and `top: 0` to our `.header` class, we're telling 
 
 Our CSS styling gives us a somewhat decent-looking navbar, but there are a couple of issues: the checkbox is visible, and the link text color is hard to read.
 
-![Hamburger NavBar with very basic styling](./assets/originals/hamnav-basic-styling.png)
+![Hamburger NavBar with very basic styling](./assets/hamnav-basic-styling.png)
 
 Let's fix that! 
 
@@ -147,7 +147,7 @@ Finally, we hid our checkbox using `display:none` under our `#hamburger-btn` dec
 
 As of now, we have an output that looks like this: 
 
-![Styled hamburger navbar icon](./assets/originals/hamnav-styled-checkbox.png)
+![Styled hamburger navbar icon](./assets/hamnav-styled-checkbox.png)
 
 Now let's make that hamburger icon interactive:
 
@@ -164,4 +164,4 @@ When the checkbox is checked, the `right` property of the `nav` is set to 0, ins
 
 Our toggled menu now looks like this:
 
-![Toggled hamburger menu](./assets/originals/hamnav-toggled.png)
+![Toggled hamburger menu](./assets/hamnav-toggled.png)

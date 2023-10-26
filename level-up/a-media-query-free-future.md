@@ -1,6 +1,4 @@
-# Responsive Design - Level Up - Product Cards Flexbox Walkthrough
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - Level Up - A Media Query Free Future](./assets/hero-a-media-query-free-future.png)
 
 Media queries have a few downsides - we end up re-writing a fair amount of CSS (hello bugs!) for many different devices, many of which we never see our content on. In addition, this process leads to potentially widely different user experiences, some of which could even cause our sites to break.
 

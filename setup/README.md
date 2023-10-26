@@ -1,4 +1,4 @@
-# ![Responsive Design - Setup](./assets/tktkhero-main.png)
+# ![Responsive Design - Setup](./assets/hero.png)
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 

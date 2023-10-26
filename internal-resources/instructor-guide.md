@@ -1,6 +1,6 @@
 # Responsive Design - Instructor Guide
 
-![Hero image](../assets/tktkhero-secondary.png)
+![Hero image](../assets/hero.png)
 
 Nothing here yet!
 

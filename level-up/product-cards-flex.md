@@ -1,6 +1,4 @@
-# Responsive Design - Level Up - Product Cards Flexbox Walkthrough
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - Level Up - Product Cards Flexbox Walkthrough](./assets/hero-product-cards-flex.png)
 
 tktk Hunter, and carry the work you do in the functional hamburger level up through here as well.
 

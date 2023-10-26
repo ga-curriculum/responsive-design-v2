@@ -1,6 +1,4 @@
-# Responsive Design - Level Up - Functional Hamburger Nav Walkthrough
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - Level Up - Functional Hamburger Nav Walkthrough](./assets/hero-functional-hamburger.png)
 
 In order to make our navbar functional using pure CSS, we're going to overhaul most of the code from the [Media Queries](../media-queries/README.md) lesson.
 

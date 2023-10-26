@@ -1,6 +1,4 @@
-# Responsive Design - Nav Bar Media Query
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - Nav Bar Media Query](./assets/hero.png)
 
 ## Hamburger nav bar
 

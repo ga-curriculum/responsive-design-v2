@@ -1,6 +1,4 @@
-# Responsive Design - Accounting for Mobile Devices
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - Accounting for Mobile Devices](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to plan responsive web pages using mobile-first design and the viewport meta tag.
 

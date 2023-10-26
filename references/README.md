@@ -1,6 +1,4 @@
-# Responsive Design - References
-
-![Hero image](./assets/hero.png)
+# ![Responsive Design - References](./assets/hero.png)
 
 ## Lesson references
 

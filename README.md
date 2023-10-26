@@ -1,6 +1,4 @@
-# Responsive Design
-
-![Hero image](./assets/tktkhero-main.png)
+# ![Responsive Design](./assets/hero.png)
 
 ## About
 

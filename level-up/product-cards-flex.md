@@ -1,6 +1,6 @@
 # ![Responsive Design - Level Up - Product Cards Flexbox Walkthrough](./assets/hero-product-cards-flex.png)
 
-Remember that awesome hamburger menu we built in the[Functional Hamburger Nav](./functional-hamburger-nav.md) level up?  In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
+Remember that awesome hamburger menu we built in the [Functional Hamburger Nav](./functional-hamburger-nav.md) level up?  In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
 
 In `index.html`, add the following code below the closing `</header` tag:
 
@@ -37,24 +37,19 @@ We've now added a few cards with links to icons from [Flaticon](https://www.flat
 
 Our output should look like this:
 
-![Unstyled cards](assets/originals/unstyled-cards.png)
+![Unstyled cards](assets/unstyled-cards.png)
 
-Moving on, let's style our `.brand-text` `<div>`. In `css/style.css`, add the following code below the declaration for .`side-menu:checked ~ .hamb .hamb-line::after` and above the media query:
+Moving on, let's style our `.brand-text` `<div>`. In `css/style.css`, add the following code at the bottom of your stylesheet:
 
 ```css
-.side-menu:checked ~ .hamb .hamb-line::after {
-  transform: rotate(45deg);
-  top:0;
-}
 /* New code below: */
-
 .brand-text {
+  color: #463f3a;
   margin-top: 25px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  color: #463f3a;
+  justify-content: center;
 }
 ```
 
@@ -64,12 +59,12 @@ Add the following code:
 
 ```css
 .card-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   width: 100%;
   margin: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 ```
 
@@ -79,29 +74,29 @@ The `flex-wrap` property in CSS controls how flex items are wrapped within a fle
 
 Our output looks a little funky right now, but after we style the individual cards it will look a lot better!
 
-![Unstyled flexwrap](assets/originals/unstyled-flexwrap.png)
+![Unstyled flexwrap](assets/unstyled-flexwrap.png)
 
 Add some rules for each card:
 
 ```css
 .item-card {
+  width: 300px;
+  margin: 15px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   padding: 30px 40px;
-  width: 300px;
-  background-color: #d9dbdd;
-  margin: 15px;
   border-radius: 15px;
+  background-color: #d9dbdd;
 }
 
 .title-text{
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 img {
@@ -112,7 +107,7 @@ img {
 
 That looks better! 
 
-![Styled cards](assets/originals/styled-cards.png)
+![Styled cards](assets/styled-cards.png)
 
 To achieve this look, we applied additional flexbox styling to each individual card, defined a fixed `width`, incorporated `padding` and `margin`, and applied a `border-radius`. We also styled the caption text for each card and set a fixed size for the `<img>` elements within each card.
 

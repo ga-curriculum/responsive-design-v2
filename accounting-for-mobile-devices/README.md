@@ -36,7 +36,4 @@ This HTML informs the browser not to scale the page on a mobile device. With thi
 
 This viewport `meta` tag is so essential that it is one of the few items automatically included in VS Code's HTML boilerplate. Every app you write will have this meta tag.
 
-tktk Hunter, can you combine these into a single widescreen graphic? (I'm not worried about the text in the no meta viewport tag image being readable, but it would be nice if the text in the meta viewport tag image was.)
-
-![No meta viewport tag](./assets/no-meta.png)
-![Meta viewport tag](./assets/meta.png)
+![Meta viewport tag & No meta viewport tag](./assets/meta-and-no-meta.png)

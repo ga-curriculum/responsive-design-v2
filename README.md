@@ -35,6 +35,12 @@ This module provides a comprehensive overview of responsive web design, tailored
 
 📖 [Reference Materials](./references/README.md)
 
+## Deployment
+
+🌐 [Live site](https://githubpages)
+
+📦 [Repo](https://git.ga)
+
 ## Internal resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)

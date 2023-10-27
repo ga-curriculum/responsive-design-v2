@@ -30,7 +30,7 @@ The Device Toolbar in Chrome DevTools simulates various screen sizes and resolut
 
 ### You Do 
 
-Chromes' browser simulation for mobile devices has come a long way, but it isn't perfect. Find a mobile device in the drop down that most closely matches your own personal device.
+Chrome's browser simulation for mobile devices has come a long way, but it isn't perfect. Find a mobile device in the drop down that most closely matches your own personal device.
 
 1. Navigate to one of your favorite websites using the simulator. Take a look at the UI.
 2. Now navigate to that same site from your personal device.

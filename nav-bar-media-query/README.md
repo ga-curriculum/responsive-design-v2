@@ -1,5 +1,7 @@
 # ![Responsive Design - Nav Bar Media Query](./assets/hero.png)
 
+**Learning objective:** By the end of this lesson, students will implement a responsive hamburger nav bar using media queries.
+
 ## Hamburger nav bar
 
 Let's create a responsive nav bar for a shopping site with a non-functioning hamburger button using media queries! You've interacted with a hamburger button before, even if you haven't heard of the term. It's an icon that looks like this: ☰. 

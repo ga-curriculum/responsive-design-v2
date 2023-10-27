@@ -1,6 +1,6 @@
 # ![Responsive Design - Implementation Examples](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will recognize examples of responsive design. 
+**Learning objective:** By the end of this lesson, students will be able to identify examples of responsive design in real-world websites and understand how they tailor user experience based on device type. 
 
 ## Responsive design in the real world
 

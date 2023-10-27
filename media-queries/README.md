@@ -1,6 +1,6 @@
 # ![Responsive Design - Media Queries](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to use media queries and breakpoints to create responsive web pages.
+**Learning objective:** By the end of this lesson, students will utilize media queries and breakpoints for creating responsive web designs.
 
 ## Using media queries to apply different CSS rules to a page
 

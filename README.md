@@ -2,32 +2,34 @@
 
 ## About
 
-This module introduces the basics of responsive design.
+This module provides a comprehensive overview of responsive web design, tailored for learners with a foundational understanding of web development. Starting with the basics, it introduces the core concept of responsive design and offers practical examples to analyze. For those looking to refine their skills, the 'Level Up' content delves deeper into specialized topics such as creating a hamburger menu with pure CSS and learning new CSS math functions for more adaptive design. This module is essential for anyone looking to create more flexible, device-friendly websites.
 
 ## Prerequisites
 
-tktk
+- Intro to HTML
+- Intro to CSS
 
 ## Content
 
-| Lesson | Video Time | Video | Topics Covered |
-| ------ |:----------:|:-----:| -------------- |
-| [Setup](./setup/README.md)                                                 | -- | -- | --                                                                                                              |
-| [Concepts](./concepts/README.md)                                           | -- | -- | Introduce the concept of responsive web design.                                                                 |
-| [Implementation Examples](./implementation-examples/README.md)             | -- | -- | Demonstrate responsive design with real world examples.                                                         |
-| [Accounting for Moblie Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Learn how to plan responsive web pages using mobile first design and the viewport meta tag.                     |
-| [Media Queries](./media-queries/README.md)                                 | -- | -- | Use media queries and breakpoints to create responsive web pages.                                               |
-| [Nav Bar Media Query](./nav-bar-media-query/README.md)                       | -- | -- | Apply a media query to a navbar.                                                                                |
-| [Best Practices](./best-practices/README.md)                               | -- | -- | Introduce responsive design best practices, including progressive enhancement and testing on different devices. |
-|  **Total Module**                                                          | -- | -- | --                                                                                                              |
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md)                                                 | -- | -- | --                                     |
+| [Concepts](./concepts/README.md)                                           | -- | -- | Intro to the concept of responsive web design                       |
+| [Implementation Examples](./implementation-examples/README.md)             | -- | -- | Examining real-world examples of responsive design                  |
+| [Accounting for Moblie Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Mobile-first design philosophy, viewport meta tag for mobile        |
+| [Media Queries](./media-queries/README.md)                                 | -- | -- | Using media queries and breakpoints to create responsive pages      |
+| [Nav Bar Media Query](./nav-bar-media-query/README.md)                     | -- | -- | Implement a responsive hamburger navbar using media queries         |
+| [Best Practices](./best-practices/README.md)                               | -- | -- | Testing on different devices, progressive design                    |
+|  **Total Module**                                                          | -- | -- |          |
 
 ### Level Up content
 
-| Lesson | Video Time | Video | Topics Covered |
+| Lesson | Video Time | Video | Skills |
 | ------ |:----------:|:-----:| -------------- |
-| [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md) | -- | -- | tktk |
-| [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)          | -- | -- | tktk |
-| [A Media Query Free Future](./level-up/a-media-query-free-future.md)           | -- | -- | tktk |
+| [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md) | -- | -- | Create a fully functional hamburger menu in pure css |
+| [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)          | -- | -- | Utilizing flexbox for product card layout; inserting and attributing icons; adding and styling HTML elements. |
+| [A Media Query Free Future](./level-up/a-media-query-free-future.md)           | -- | -- | Limitations of media queries; introduction to CSS math functions like clamp(), min(), max(), and minmax() |
+|  **Bonus**                                                                     | -- | -- |      |
 
 ## References
 

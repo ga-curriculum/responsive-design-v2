@@ -1,6 +1,6 @@
 # ![Responsive Design - Concepts](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be introduced to the concept of responsive design.
+**Learning objective:** By the end of this lesson, students will be able to explain the concept of responsive design and understand its importance in modern web development.
 
 ## Background
 

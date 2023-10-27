@@ -1,5 +1,7 @@
 # ![Responsive Design - Level Up - Functional Hamburger Nav Walkthrough](./assets/hero-functional-hamburger.png)
 
+**Learning Objective:** By the end of this lesson, the learner will understand how to create a functional hamburger navigation menu using pure CSS. This will include using a checkbox for toggling visibility and styling the menu to improve user experience.
+
 In order to make our navbar functional using pure CSS, we're going to overhaul most of the code from the [Media Queries](../media-queries/README.md) lesson.
 
 ## Setting up our navbar
@@ -165,3 +167,21 @@ When the checkbox is checked, the `right` property of the `nav` is set to 0, ins
 Our toggled menu now looks like this:
 
 ![Toggled hamburger menu](./assets/hamnav-toggled.png)
+
+
+
+### Key Takeaways
+
+**Checkbox for Toggling:** We used a checkbox input to change the menu's visibility. It's an HTML element we can style and manipulate using CSS.
+
+**Styling the Menu:** We set the menu's right property to -100% to keep it hidden. When the checkbox is checked, we change it to 0, revealing the menu.
+
+**Responsiveness:** We use position: fixed for the menu to overlay it on top of other content. The fixed position also makes the menu accessible from any point on the page.
+
+**Enhanced UX:** The transition property provides smooth animation for better user experience.
+
+**Visibility Control:** The display: none property is used to hide the checkbox, keeping our layout clean.
+
+**Accessibility:** Always use proper attributes and tags, like label for the checkbox, to improve accessibility.
+
+**Positioning:** The position: sticky CSS property is used to make the header stay at the top during scrolling.

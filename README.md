@@ -35,11 +35,11 @@ This module provides a comprehensive overview of responsive web design, tailored
 
 📖 [Reference Materials](./references/README.md)
 
-## Deployment
+## Deployed examples
 
-🌐 [Live site](https://githubpages)
+🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-navbar-example/)
 
-📦 [Repo](https://git.ga)
+📦 [Repo](https://git.generalassemb.ly/modular-curriculum-all-courses/responsive-navbar-example)
 
 ## Internal resources
 

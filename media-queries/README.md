@@ -30,6 +30,7 @@ We can also combine multiple media queries to create more complex conditions. Fo
 ```
 
 ## Breakpoints
+![Devices](./assets/devices.png)
 
 Breakpoints are the specific screen sizes or conditions we use to create media queries. Common breakpoints include:
 

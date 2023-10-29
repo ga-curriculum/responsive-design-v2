@@ -68,4 +68,6 @@ We only add CSS declarations for the properties we want to change. There's no re
 
 Shrink the window smaller than 550 pixels in width, then extend it past 550 pixels in width. You should see a change in what is shown in the nav bar!
 
+![Result](./assets/result.png)
+
 If you'd like to learn how to make this functional, head to the Level Up for a walkthrough.

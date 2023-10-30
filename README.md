@@ -19,7 +19,7 @@ This module provides a comprehensive overview of responsive web design, tailored
 | [Accounting for Moblie Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Mobile-first design philosophy, viewport meta tag for mobile        |
 | [Media Queries](./media-queries/README.md)                                 | -- | -- | Using media queries and breakpoints to create responsive pages      |
 | [Nav Bar Media Query](./nav-bar-media-query/README.md)                     | -- | -- | Implement a responsive hamburger navbar using media queries         |
-| [Best Practices](./best-practices/README.md)                               | -- | -- | Testing on different devices, progressive design                    |
+| [Best Practices](./best-practices/README.md)                               | -- | -- | Testing on different devices in the browser, progressive design     |
 |  **Total Module**                                                          | -- | -- |          |
 
 ### Level Up content
@@ -37,9 +37,9 @@ This module provides a comprehensive overview of responsive web design, tailored
 
 ## Deployed examples
 
-🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-navbar-example/)
+🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
 
-📦 [Repo](https://git.generalassemb.ly/modular-curriculum-all-courses/responsive-navbar-example)
+📦 [Repo](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
 
 ## Internal resources
 

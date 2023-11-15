@@ -16,8 +16,8 @@ This module provides a comprehensive overview of responsive web design, tailored
 | [Setup](./setup/README.md)                                                 | -- | -- | Setting up the development environment                              |
 | [Concepts](./concepts/README.md)                                           | -- | -- | Intro to the concept of responsive web design                       |
 | [Implementation Examples](./implementation-examples/README.md)             | -- | -- | Examining real-world examples of responsive design                  |
-| [Accounting for Mobile Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Mobile-first design philosophy, viewport meta tag for mobile        |
 | [Media Queries](./media-queries/README.md)                                 | -- | -- | Using media queries and breakpoints to create responsive pages      |
+| [Accounting for Mobile Devices](./accounting-for-mobile-devices/README.md) | -- | -- | Mobile-first design philosophy, viewport meta tag for mobile        |
 | [Nav Bar Media Query](./nav-bar-media-query/README.md)                     | -- | -- | Implement a responsive hamburger navbar using media queries         |
 | [Best Practices](./best-practices/README.md)                               | -- | -- | Testing on different devices in the browser, progressive design     |
 |  **Total Module**                                                          | -- | -- |          |

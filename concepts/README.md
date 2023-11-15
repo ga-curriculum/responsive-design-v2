@@ -28,3 +28,9 @@ Whether you're aware or not, you encounter examples of responsive design every t
 Non-traditional interfaces have skyrocketed in popularity, and users access the web from all kinds of devices. Responsive design ensures that more people can use our applications to begin with. Furthermore, it enables them to have a positive experience using our apps, regardless of how they interact with them.
 
 That's not to say there are no challenges to implementing responsive design. By its nature, implementing responsive design requires more planning, more code, and more testing. The benefits typically outweigh the challenges though, and it is an essential consideration for any website or app.
+
+## Knowledge Checks
+
+- What are some examples of responsive design you most likely have already encountered?
+- Why should we implement responsive design?
+- True/False: when developing an app, you only need to think about Desktop browsers.

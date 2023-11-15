@@ -19,7 +19,7 @@ This release modularizes the legacy Responsive Web Design lecture and provides s
 - Update setup materials to use VS Code.
 - Update assets throughout.
 - Change lecture content to use a nav bar example that is more applicable to students, with simpler starter code.
-- Update lecture content to use more modern approaches to breakpoints. Media queries should be constructed based on the needs of content rather than to generic classes of devices.  
+- Update lecture content to use more modern approaches to breakpoints. Media queries should be constructed based on the needs of content rather than to generic classes of devices.
 
 **Removals**
 

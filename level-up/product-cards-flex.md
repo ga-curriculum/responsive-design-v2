@@ -2,7 +2,7 @@
 
 **Learning objective:** By the end of this lesson, the learner will be able to implement a responsive product card layout using flexbox, while adhering to proper attribution requirements for third-party assets.
 
-Remember that awesome hamburger menu we built in the [Functional Hamburger Nav](./functional-hamburger-nav.md) level up?  In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
+Remember that awesome hamburger menu we built in the [Functional Hamburger Nav](./functional-hamburger-nav.md) level up? In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
 
 In `index.html`, add the following code below the closing `</header` tag:
 

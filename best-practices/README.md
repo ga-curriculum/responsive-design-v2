@@ -45,7 +45,7 @@ Progressive enhancement is a way to design websites that work for everyone, rega
 - **Universal Accessibility**: All users receive the essential content and basic functionalities.
 - **Reduced Load Times**: Users with older hardware or slower internet connections benefit from faster load times for essential features.
 - **Easier Maintenance**: Since the basic version needs to be maintained, it simplifies long-term site upkeep.
-  
+
 ## ❓ Review Questions
 
 - Can you think of a feature that might not be useful on a mobile device, but could greatly enhance a desktop experience?

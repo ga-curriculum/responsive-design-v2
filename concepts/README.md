@@ -29,7 +29,7 @@ Non-traditional interfaces have skyrocketed in popularity, and users access the 
 
 That's not to say there are no challenges to implementing responsive design. By its nature, implementing responsive design requires more planning, more code, and more testing. The benefits typically outweigh the challenges though, and it is an essential consideration for any website or app.
 
-## Knowledge Checks
+## ❓ Review Questions
 
 - What are some examples of responsive design you most likely have already encountered?
 - Why should we implement responsive design?

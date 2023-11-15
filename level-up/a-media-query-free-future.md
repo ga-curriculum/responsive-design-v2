@@ -10,7 +10,6 @@ MDN has extensive documentation on these CSS functions - follow the links above 
 
 Even with their browser support, these CSS math functions are still officially in a draft state, so we don't cover them in-depth. However, you should try implementing one (we'd recommend `clamp()`) just to test the waters!
 
-
 > ❓ Which of the following statements best describes the limitations of using media queries for responsive design?
 > 
 > A. Media queries allow for highly flexible and adaptive designs across all devices.

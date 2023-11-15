@@ -39,7 +39,9 @@ Breakpoints are the specific screen sizes or conditions we use to create media q
 - Desktop: 768px - 1199px
 - Large desktop: 1200px+
 
-While the above values are good general guidelines, it's important to recognize that desktop users can resize their browser window to any width. Also, nothing stops a phone manufacturer from making a phone that doesn't conform to the above rules. For example, in landscape orientation, the iPhone 15 Pro Max has a viewport width of over 800 pixels, putting it firmly into our supposed desktop viewport territory. Therefore, you should focus your energy on making breakpoints that make sense for your application, and you should always choose breakpoints based on a site's content.  The easiest way to do this is to drag your browser's width in and out, making it thinner and then wider.  Look at the website as you do so.  If at any point, you feel the app becomes difficult to use, due to its layout at that screen width, add a media query that targets that screen width and write CSS that corrects the issue.
+While the above values are good general guidelines, it's important to recognize that desktop users can resize their browser window to any width. Also, nothing stops a phone manufacturer from making a phone that doesn't conform to the above rules. For example the iPhone 15 Pro Max has a viewport width of over 800 pixels in landscape orientation, putting it firmly into our supposed desktop viewport territory. Therefore, you should focus your energy on making breakpoints that make sense for your application, and you should always choose breakpoints based on a site's content.  
+
+The easiest way to do this is to drag your browser's width in and out, making it thinner and wider. Look at the website as you do so. If you feel the app becomes difficult to use at any point due to its layout at that screen width, add a media query that targets that screen width and write CSS that corrects the issue.
 
 ## Order matters
 
@@ -139,8 +141,8 @@ When the screen is 800 pixels or larger, the background color will change to `ga
 
 The big takeaway is that, like always, the order in which you write your CSS matters. However, media queries add layers of complication you must also consider. Media queries should always appear after all other CSS, and it's important to test your implementation of them.
 
-## Knowledge checks
+## ❓ Review Questions
 
-- True/False: Media queries wrap normal CSS rules, applying those CSS rules only when the requirements for those media queries are met
-- True/False: The placement of media queries in your code doesn't matter
-- True/False: The best way to create breakpoints is to drag your browser's width in and out, making it thinner and wider.  Look at the website as you do so.  If at any point, you feel the app becomes difficult to use, due to its layout at that screen width, add a media query that targets that screen width and write CSS that corrects the issue.
+- True/False: Media queries wrap normal CSS rules, applying those CSS rules only when the requirements for those media queries are met.
+- True/False: The placement of media queries in your code doesn't matter.
+- True/False: The best way to create breakpoints is to drag your browser's width in and out, making it thinner and wider. Look at the website as you do so. If you feel the app becomes difficult to use at any point due to its layout at that screen width, add a media query that targets that screen width and write CSS that corrects the issue.

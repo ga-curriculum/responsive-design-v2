@@ -12,11 +12,11 @@ When you go to their site, whether on a mobile device with a five-inch screen or
 
 A call to action is a prompt that urges a user to take a specific action. Typically, a call to action will lead to the user becoming a customer. In this case, the call to action asks the user to sign up for a trial.
 
-Some of techniques Shopify used to accomplish this are as follows:
+Some of the techniques Shopify used to accomplish this are as follows:
 
-- Responsive image: the background image for mobile is much smaller than in desktop
-- Responsive nav bar: in desktop, the nav stretches across the screen.  In mobile, it's initially hidden, there is a "hamburger" icon that users can press to show it
-- Layout orientation: the "Start free trial" and "Watch the Shopify story" buttons are positioned horizontally across from each other in desktop.  In mobile, they are stacked vertically.  It's a pretty standard practice to display most content vertically for mobile devices, given the limited width of their screens.
+- Responsive image: The background image for mobile is much smaller than in desktop.
+- Responsive nav bar: The nav stretches across the screen on a desktop view. On mobile, it's initially hidden, and users can press a hamburger icon to show it.
+- Layout orientation: The "Start free trial" and "Watch the Shopify story" buttons are positioned horizontally across from each other on the desktop. On mobile, they are stacked vertically. It's typical to display most content vertically for mobile devices, given the limited width of their screens.
 
 ![Shopify](./assets/shopify.png)
 
@@ -29,8 +29,9 @@ While their users may not create repos from their mobile devices, they will like
 ![GitHub](./assets/github.png)
 
 Many approaches can be taken to implement responsive design, and the final implementation will ultimately depend on the goals of the application in question.
-## Knowledge checks
 
-- True/False it's okay to hide features from users for the sake of making the overall experience better.
-- Go to websites you frequently visit, and view them on both a mobile device as well as a desktop/laptop device.  What differences can you spot?
-- In general, most websites display content in which direction for mobile devices (horizontal or vertical)?
+## ❓ Review Questions
+
+- True or False: It's okay to hide features from users for the sake of making the overall experience better.
+- Go to a website you frequently visit and view it on a mobile device and a desktop/laptop device. What differences can you spot?
+- Most websites genearlly display content in which direction for mobile devices (horizontal or vertical)?

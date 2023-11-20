@@ -9,13 +9,3 @@ New CSS tools to help us write fewer media queries have recently gotten browser 
 MDN has extensive documentation on these CSS functions - follow the links above to check them out.
 
 Even with their browser support, these CSS math functions are still officially in a draft state, so we don't cover them in-depth. However, you should try implementing one (we'd recommend `clamp()`) just to test the waters!
-
-> ❓ Which of the following statements best describes the limitations of using media queries for responsive design?
-> 
-> A. Media queries allow for highly flexible and adaptive designs across all devices.
-> 
-> B. Using media queries can lead to code duplication and varying user experiences that may break the site on some devices.
-> 
-> C. Media queries are not supported in modern browsers.
-> 
-> D. Media queries automatically adapt your site to different devices without the need for additional CSS rules.

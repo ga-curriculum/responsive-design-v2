@@ -69,9 +69,3 @@ Shrink the window smaller than 550 pixels in width, then extend it past 550 pixe
 ![Result](./assets/result.png)
 
 If you'd like to learn how to make this functional, head to the [Functional Hamburger Nav Level Up](../level-up/functional-hamburger-nav.md) for a walkthrough.
-
-## ❓ Review Questions
-
-- What does `display:none` do?
-- True/False: it's a good idea to start building your CSS from the perspective a smaller width devices, adding additional CSS for larger devices as makes sense
-- True/False: a good practice for checking your media queries is to shrink and extend your browser window. If at any point in that process the page becomes difficult to use, it may be a good idea to add additional breakpoints or adjust the one you wrote.

@@ -37,9 +37,3 @@ This viewport `meta` tag is so essential that it is one of the few items automat
 Below is an example of a page with the viewport meta tag on the left and the same page without it on the right:
 
 ![Meta viewport tag & No meta viewport tag](./assets/meta-no-meta.png)
-
-## ❓ Review Questions
-
-- What does the viewport meta tag do?
-- True/False: It's better to start by building the CSS for your page from the perspective of larger-width devices. Once that's done, you can add CSS for smaller-width devices.
-- What does the virtual viewport enable on mobile devices?

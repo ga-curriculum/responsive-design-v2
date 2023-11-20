@@ -141,9 +141,3 @@ body {
 When the screen is 800 pixels or larger, the background color will change to `gainsboro`, as we originally intended.
 
 The big takeaway is that, like always, the order in which you write your CSS matters. However, media queries add layers of complication you must also consider. Media queries should always appear after all other CSS, and it's important to test your implementation of them.
-
-## ❓ Review Questions
-
-- True/False: Media queries wrap normal CSS rules, applying those CSS rules only when the requirements for those media queries are met.
-- True/False: The placement of media queries in your code doesn't matter.
-- True/False: The best way to create breakpoints is to drag your browser's width in and out, making it thinner and wider. Look at the website as you do so. If you feel the app becomes difficult to use at any point due to its layout at that screen width, add a media query that targets that screen width and write CSS that corrects the issue.

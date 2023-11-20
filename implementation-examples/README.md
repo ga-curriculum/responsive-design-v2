@@ -29,9 +29,3 @@ While their users may not create repos from their mobile devices, they will like
 ![GitHub](./assets/github.png)
 
 Many approaches can be taken to implement responsive design, and the final implementation will ultimately depend on the goals of the application in question.
-
-## ❓ Review Questions
-
-- True or False: It's okay to hide features from users for the sake of making the overall experience better.
-- Go to a website you frequently visit and view it on a mobile device and a desktop/laptop device. What differences can you spot?
-- Most websites genearlly display content in which direction for mobile devices (horizontal or vertical)?

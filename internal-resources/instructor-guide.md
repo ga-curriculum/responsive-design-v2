@@ -1,4 +1,4 @@
-# ![Responsive Design - Instructor Guide](../assets/hero.png)
+# ![Responsive Design - Instructor Guide](../assets/instructor-guide.png)
 
 Nothing here yet!
 

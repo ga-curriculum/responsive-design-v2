@@ -1,4 +1,4 @@
-# ![Responsive Design - Release Notes](../assets/hero.png)
+# ![Responsive Design - Release Notes](../assets/release-notes.png)
 
 ## Version 1.0 - Updates from legacy content
 

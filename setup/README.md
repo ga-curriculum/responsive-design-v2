@@ -5,6 +5,7 @@ Open your Terminal application and navigate to your `~/code/ga/lectures` directo
 ```bash
 cd ~/code/ga/lectures
 ```
+
 Make a new directory called `responsive-design`, then enter this directory:
 
 ```bash

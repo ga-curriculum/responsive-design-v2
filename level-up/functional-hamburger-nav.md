@@ -83,7 +83,7 @@ Our CSS styling gives us a somewhat decent-looking navbar, but there are a coupl
 
 ![Hamburger NavBar with very basic styling](./assets/hamnav-basic-styling.png)
 
-Let's fix that! 
+Let's fix that!
 
 ```css
 /* Nav menu */
@@ -119,7 +119,6 @@ Note we are targeting the `nav` element here. If you have more than one `nav` el
 
 Now it's time to style the hamburger icon:
 
-
 ```css
 #hamburger-icon {
   z-index: 1;
@@ -141,13 +140,13 @@ Now it's time to style the hamburger icon:
 }
 ```
 
-In the above code, we styled our `cursor` to display as a `pointer` when a user interacts with our menu. 
+In the above code, we styled our `cursor` to display as a `pointer` when a user interacts with our menu.
 
-We also positioned our hamburger label to the right of our header, and created a hamburger icon using the `.line` class. 
+We also positioned our hamburger label to the right of our header, and created a hamburger icon using the `.line` class.
 
-Finally, we hid our checkbox using `display:none` under our `#hamburger-btn` declaration. 
+Finally, we hid our checkbox using `display:none` under our `#hamburger-btn` declaration.
 
-As of now, we have an output that looks like this: 
+As of now, we have an output that looks like this:
 
 ![Styled hamburger navbar icon](./assets/hamnav-styled-checkbox.png)
 
@@ -161,14 +160,13 @@ Now let's make that hamburger icon interactive:
 
 ```
 
-This code uses the adjacent sibling combinator (`+`) to select the `nav` element that is directly preceded by a checked checkbox with an id of `hamburger-btn`. 
+This code uses the adjacent sibling combinator (`+`) to select the `nav` element that is directly preceded by a checked checkbox with an id of `hamburger-btn`.
+
 When the checkbox is checked, the `right` property of the `nav` is set to 0, instead of the initial value of `-100%;`. This causes the nav to slide in from the right side of the screen
 
 Our toggled menu now looks like this:
 
 ![Toggled hamburger menu](./assets/hamnav-toggled.png)
-
-
 
 ### Key Takeaways
 

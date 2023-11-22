@@ -2,7 +2,9 @@
 
 ## About
 
-This module provides a comprehensive overview of responsive web design, tailored for learners with a foundational understanding of web development. Starting with the basics, it introduces the core concept of responsive design and offers practical examples to analyze. For those looking to refine their skills, the 'Level Up' content digs deeper into specialized topics such as creating a hamburger menu with pure CSS and learning new CSS math functions for more adaptive design. This module is essential for anyone looking to create more flexible, device-friendly websites.
+This module provides a comprehensive overview of responsive web design, tailored for learners with a foundational understanding of web development. Starting with the basics, it introduces the core concept of responsive design and offers practical examples to analyze.
+
+For those looking to refine their skills, the Level Up content digs deeper into specialized topics such as creating a hamburger menu with pure CSS and learning new CSS math functions for more adaptive design. This module is essential for anyone looking to create more flexible, device-friendly websites.
 
 ## Prerequisites
 
@@ -45,7 +47,7 @@ This module provides a comprehensive overview of responsive web design, tailored
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-🎥 [Video Hub](./internal-resources/video-hub/README.md)
+🎥 [Video Hub](./internal-resources/video-hub.md)
 
 🏗️ [Release Notes](./internal-resources/release-notes.md)
 

@@ -4,35 +4,47 @@
 
 Remember that awesome hamburger menu we built in the [Functional Hamburger Nav](./functional-hamburger-nav.md) level up? In this lesson we'll add content and responsiveness to the main content of our site using only flexbox!
 
-In `index.html`, add the following code below the closing `</header` tag:
+In `index.html`, add the following code below the closing `</header>` tag:
 
 ```html
 <main>
-    <div class="brand-text">
-      <h1>Happy Fashion</h1>
+  <div class="brand-text">
+    <h1>Happy Fashion</h1>
+  </div>
+  <div class="card-container">
+    <div class="title-text">
+      <p id="card-title">Featured Items:</p>
     </div>
-    <div class="card-container">
-      <div class="title-text">
-        <p id="card-title">Featured Items:</p>
-      </div>
-      <div class="item-card">
-        <img src="https://cdn-icons-png.flaticon.com/128/6516/6516824.png" alt="boots icon">
-        <p class="item-desc">Cowboy Boots</p>
-      </div>
-      <div class="item-card">
-        <img src="https://cdn-icons-png.flaticon.com/128/2390/2390064.png" alt="pants icon">
-        <p class="item-desc">Belted Dress</p>
-      </div>
-      <div class="item-card">
-        <img src="https://cdn-icons-png.flaticon.com/128/2806/2806170.png" alt="shirt icon">
-        <p class="item-desc">Varsity Jacket</p>
-      </div>
-      <div class="item-card">
-        <img src="https://cdn-icons-png.flaticon.com/128/1974/1974214.png" alt="socks icon">
-        <p class="item-desc">Baseball Hat</p>
-      </div>
+    <div class="item-card">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/128/6516/6516824.png" 
+        alt="boots icon"
+      >
+      <p class="item-desc">Cowboy Boots</p>
     </div>
-  </main>
+    <div class="item-card">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/128/2390/2390064.png" 
+        alt="pants icon"
+        >
+      <p class="item-desc">Belted Dress</p>
+    </div>
+    <div class="item-card">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/128/2806/2806170.png" 
+        alt="shirt icon"
+      >
+      <p class="item-desc">Varsity Jacket</p>
+    </div>
+    <div class="item-card">
+      <img 
+        src="https://cdn-icons-png.flaticon.com/128/1974/1974214.png" 
+        alt="socks icon"
+      >
+      <p class="item-desc">Baseball Hat</p>
+    </div>
+  </div>
+</main>
 ```
 
 We've now added a few cards with links to icons from [Flaticon](https://www.flaticon.com/), a fantastic resource for finding high-quality, free icons and assets to enhance your projects. However, it's important to note that Flaticon has strict attribution requirements, so make sure to properly credit them in your work.
@@ -107,9 +119,8 @@ img {
 }
 ```
 
-That looks better! 
+That looks better!
 
 ![Styled cards](assets/styled-cards.png)
 
 To achieve this look, we applied additional flexbox styling to each individual card, defined a fixed `width`, incorporated `padding` and `margin`, and applied a `border-radius`. We also styled the caption text for each card and set a fixed size for the `<img>` elements within each card.
-

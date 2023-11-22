@@ -4,9 +4,9 @@
 
 ## Hamburger nav bar
 
-Let's create a responsive nav bar for a shopping site with a non-functioning hamburger button using media queries! You've interacted with a hamburger button before, even if you haven't heard of the term. It's an icon that looks like this: ☰. 
+Let's create a responsive nav bar for a shopping site with a non-functioning hamburger button using media queries! You've interacted with a hamburger button before, even if you haven't heard of the term. It's an icon that looks like this: ☰.
 
-Hamburger buttons are frequently used when the viewport's width isn't enough to accommodate the entire width of all the elements inside a nav bar. They are a classic pattern widely understood by users, so their use is prevalent, even outside the web. 
+Hamburger buttons are frequently used when the viewport's width isn't enough to accommodate the entire width of all the elements inside a nav bar. They are a classic pattern widely understood by users, so their use is prevalent, even outside the web.
 
 To set up the hamburger button on our site, we want the nav bar to appear as a horizontal row of `<p>` elements when the screen is 550 pixels or wider and as a hamburger menu when it's smaller than 550 pixels. Remember, nothing here is intended to function. That's why we use regular `<p>` elements even though a nav bar typically holds links.
 
@@ -37,7 +37,7 @@ nav {
 }
 ```
 
-Since we're implementing a mobile-first design, our base CSS will hide the `<div>` element with an `id` of `destinations`. 
+Since we're implementing a mobile-first design, our base CSS will hide the `<div>` element with an `id` of `destinations`.
 
 ```css
 #destinations {

@@ -16,7 +16,7 @@ When conducting tests, zero in on:
 - **Forms:** Are they fully functional?
 - **Interactivity:** Do clickable items behave as expected?
 
-> ❓ Which of these would "testing the animation of a hamburger menu" fall under? 
+> ❓ Which of these would "testing the animation of a hamburger menu" fall under?
 
 ## Using Chrome's Device Toolbar for Testing
 
@@ -27,7 +27,7 @@ While testing on the actual devices your audience uses is ideal, it's often not 
 3. Select a device from the drop-down or input custom dimensions
 4. Refresh the page to see how your website behaves under different conditions.
 
-### 🎓 You Do 
+### 🎓 You Do
 
 Chrome's browser simulation for mobile devices has come a long way, but it isn't perfect. Find a mobile device in the drop-down that most closely matches your personal mobile device.
 

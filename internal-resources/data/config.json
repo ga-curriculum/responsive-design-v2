@@ -1,0 +1,187 @@
+{
+  "org": {
+    "friendlyName": "Modular Curriculum All Courses",
+    "name": "modular-curriculum-all-courses"
+  },
+  "repo": {
+    "friendlyName": "Responsive Design",
+    "name": "responsive-design",
+    "type": "Lesson"
+  },
+  "courses": [
+    {
+      "name": "fallback",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Implementation Examples",
+          "dirName": "implementation-examples",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Accounting for Mobile Devices",
+          "dirName": "accounting-for-mobile-devices",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Media Queries",
+          "dirName": "media-queries",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Nav Bar Media Query",
+          "dirName": "nav-bar-media-query",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Best Practices",
+          "dirName": "best-practices",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Functional Hamburger Nav",
+          "dirName": "functional-hamburger-nav",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Product Cards Flex",
+          "dirName": "product-cards-flex",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "A Media Query Free Future",
+          "dirName": "a-media-query-free-future",
+          "type": "Content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    },
+    {
+      "name": "seb",
+      "logoUrl": "",
+      "microlessons": [
+        {
+          "friendlyName": "Setup",
+          "dirName": "setup",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Concepts",
+          "dirName": "concepts",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Implementation Examples",
+          "dirName": "implementation-examples",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Accounting for Mobile Devices",
+          "dirName": "accounting-for-mobile-devices",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Media Queries",
+          "dirName": "media-queries",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Nav Bar Media Query",
+          "dirName": "nav-bar-media-query",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Best Practices",
+          "dirName": "best-practices",
+          "type": "Content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Functional Hamburger Nav",
+          "dirName": "functional-hamburger-nav",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "Product Cards Flex",
+          "dirName": "product-cards-flex",
+          "type": "Level Up content",
+          "videoUrl": ""
+        },
+        {
+          "friendlyName": "A Media Query Free Future",
+          "dirName": "a-media-query-free-future",
+          "type": "Level Up content",
+          "videoUrl": ""
+        }
+      ],
+      "isHeaderShown": true,
+      "isHeaderModuleNavShown": true,
+      "isHeaderHomeNavShown": true,
+      "isHeaderMicrolessonNavShown": true,
+      "isHeaderMicrolessonVideoLinkShown": true,
+      "isHeaderNavSettingsShown": true,
+      "isFooterCopyrightShown": true,
+      "isFooterLessonNavShown": true,
+      "isStickyNavSettingShown": true,
+      "isStickyNavAllowed": true,
+      "isFixedNavAllowed": true,
+      "isStickyNavDefault": true,
+      "isStickyNavForcedDefault": false,
+      "isFixedNavForcedDefault": false,
+      "isDarkModeSettingShown": true,
+      "isDarkModeAllowed": true,
+      "isLightModeAllowed": true,
+      "isLightModeDefault": true,
+      "isLightModeForcedDefault": false,
+      "isDarkModeForcedDefault": false,
+      "isActivityTimeShown": true
+    }
+  ]
+}

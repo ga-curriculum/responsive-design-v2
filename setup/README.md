@@ -1,4 +1,7 @@
-# ![Responsive Design - Setup](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Setup</span>
+</h1>
 
 Open your Terminal application and navigate to your `~/code/ga/lectures` directory:
 
@@ -34,7 +37,7 @@ code .
 Open the `index.html` file and add HTML boilerplate by typing `!` and then hitting the `Tab` key. Then make use of the `style.css` file inside of the `css` directory by adding this line inside the `<head>` tag:
 
 ```html
-<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/style.css" />
 ```
 
 Add the following code to your `style.css` file:

@@ -1,4 +1,7 @@
-# ![Responsive Design - Best Practices](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Best Practices</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to utilize testing tools to evaluate the responsiveness of a website on different devices and understand the principles of progressive enhancement to create websites that are accessible to a broad range of users.
 

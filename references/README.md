@@ -1,4 +1,7 @@
-# ![Responsive Design - References](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">References</span>
+</h1>
 
 ## Lesson references
 

@@ -1,4 +1,7 @@
-# ![Responsive Design - Accounting for Mobile Devices](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Accounting for Mobile Devices</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to implement a mobile-first design approach and use the viewport meta tag to optimize web pages for mobile devices.
 

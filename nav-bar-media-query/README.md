@@ -1,4 +1,7 @@
-# ![Responsive Design - Nav Bar Media Query](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Nav Bar Media Query</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will implement a responsive hamburger nav bar using media queries.
 

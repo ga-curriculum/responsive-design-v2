@@ -16,18 +16,18 @@ To set up the hamburger button on our site, we want the nav bar to appear as a h
 Next, add the following inside of your `<body>` tags. Feel free to copy this from here. The only item of note is the two `<div>` elements we're creating inside the `<nav>` element. Eventually, we'll make it so only one of these `<div>` elements shows at a time.
 
 ```html
-  <nav>
-    <div id="destinations">
-      <p>Home</p>
-      <p>About</p>
-      <p>Shop</p>
-      <p>Contact</p>
-      <p>Climate Pledge</p>
-    </div>
-    <div id="destinations-mobile">
-      <p>🍔</p>
-    </div>
-  </nav>
+<nav>
+  <div id="destinations">
+    <p>Home</p>
+    <p>About</p>
+    <p>Shop</p>
+    <p>Contact</p>
+    <p>Climate Pledge</p>
+  </div>
+  <div id="destinations-mobile">
+    <p>🍔</p>
+  </div>
+</nav>
 ```
 
 We will using a mobile-first design. Therefore, the CSS we write outside our media queries will target smaller screens. We'll then write new CSS in our media queries that targets larger screens. Let's start with some CSS to handle the `<nav>` we just created:
@@ -71,4 +71,4 @@ Shrink the window smaller than 550 pixels in width, then extend it past 550 pixe
 
 ![Result](./assets/result.png)
 
-If you'd like to learn how to make this functional, head to the [Functional Hamburger Nav Level Up](../level-up/functional-hamburger-nav.md) for a walkthrough.
+If you'd like to learn how to make this functional, head to the `Functional Hamburger Nav` lesson for a walkthrough.

@@ -23,7 +23,7 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 | [Functional Hamburger Nav Walkthrough](./functional-hamburger-nav/README.md) |   17 min   | [Link](https://generalassembly.wistia.com/medias/nrbhtb7s8c) | Create a fully functional hamburger menu in pure CSS.                                                              |
 | [Product Cards Flexbox Walkthrough](./product-cards-flex/README.md)          |   13 min   | [Link](https://generalassembly.wistia.com/medias/nyxxmmb7f5) | Using Flexbox for product card layout; inserting and attributing icons; adding and styling HTML elements.          |
 | [A Media Query Free Future](./a-media-query-free-future/README.md)           |   2 min    | [Link](https://generalassembly.wistia.com/medias/se5ud2y3g3) | Limitations of media queries; introduction to CSS math functions like `clamp()`, `min()`, `max()`, and `minmax()`. |
-| **Total content**                                                            |   70 min   |                              --                              |                                                                                                                    |
+| **Total content**                                                            |   70 min   |                                                              |                                                                                                                    |
 
 ## References
 

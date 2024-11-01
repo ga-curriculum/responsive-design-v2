@@ -42,6 +42,11 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
 
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/seb)
+
 ### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)

@@ -1,4 +1,7 @@
-# ![Responsive Design - Media Queries](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Media Queries</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will utilize media queries and breakpoints for creating responsive web designs.
 

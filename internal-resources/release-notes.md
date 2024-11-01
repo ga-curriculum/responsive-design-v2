@@ -1,4 +1,7 @@
-# ![Responsive Design - Release Notes](../assets/release-notes.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Release Notes</span>
+</h1>
 
 ## Version 1.0 - Updates from legacy content
 

@@ -1,4 +1,7 @@
-# ![Responsive Design](./assets/hero.png)
+<h1>
+  <span class="prefix"></span>
+  <span class="headline">Responsive Design</span>
+</h1>
 
 ## About
 
@@ -6,44 +9,45 @@ This module provides a comprehensive overview of responsive web design, tailored
 
 For those looking to refine their skills, the Level Up content digs deeper into specialized topics such as creating a hamburger menu with pure CSS and learning new CSS math functions for more adaptive design. This module is essential for anyone looking to create more flexible, device-friendly websites.
 
-## Prerequisites
-
-- Intro to HTML
-- Intro to CSS
-
 ## Content
 
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Setup](./setup/README.md)                                                 | 3 min  | [Link](https://generalassembly.wistia.com/medias/kam9jpjgxg) | Setting up the development environment.                          |
-| [Concepts](./concepts/README.md)                                           | 2 min  | [Link](https://generalassembly.wistia.com/medias/akpwl29l9i) | Intro to the concept of responsive web design.                   |
-| [Implementation Examples](./implementation-examples/README.md)             | 4 min  | [Link](https://generalassembly.wistia.com/medias/s2rf9r81mn) | Examining real-world examples of responsive design.              |
-| [Accounting for Mobile Devices](./accounting-for-mobile-devices/README.md) | 4 min  | [Link](https://generalassembly.wistia.com/medias/w89mclc8kk) | Mobile-first design philosophy, viewport meta tag for mobile.    |
-| [Media Queries](./media-queries/README.md)                                 | 14 min | [Link](https://generalassembly.wistia.com/medias/t7cboy1qhe) | Using media queries and breakpoints to create responsive pages.  |
-| [Nav Bar Media Query](./nav-bar-media-query/README.md)                     | 6 min  | [Link](https://generalassembly.wistia.com/medias/93iml1u7ri) | Implement a responsive hamburger navbar using media queries.     |
-| [Best Practices](./best-practices/README.md)                               | 5 min  | [Link](https://generalassembly.wistia.com/medias/9kf21legun) | Testing on different devices in the browser, progressive design. |
-| **Total content**                                                          | 38 min | --                                                           |                                                                  |
-
-### Level Up content
-
-| Lesson | Video Time | Video | Skills |
-| ------ |:----------:|:-----:| ------ |
-| [Functional Hamburger Nav Walkthrough](./level-up/functional-hamburger-nav.md) | 17 min | [Link](https://generalassembly.wistia.com/medias/nrbhtb7s8c) | Create a fully functional hamburger menu in pure CSS.                                                              |
-| [Product Cards Flexbox Walkthrough](./level-up/product-cards-flex.md)          | 13 min | [Link](https://generalassembly.wistia.com/medias/nyxxmmb7f5) | Using flexbox for product card layout; inserting and attributing icons; adding and styling HTML elements.          |
-| [A Media Query Free Future](./level-up/a-media-query-free-future.md)           | 2 min  | [Link](https://generalassembly.wistia.com/medias/se5ud2y3g3) | Limitations of media queries; introduction to CSS math functions like `clamp()`, `min()`, `max()`, and `minmax()`. |
-| **Total Level Up content**                                                     | 32 min | --                                                           |                                                                                                                    |
+| Lesson                                                                       | Video Time |                            Video                             | Skills                                                                                                             |
+| ---------------------------------------------------------------------------- | :--------: | :----------------------------------------------------------: | ------------------------------------------------------------------------------------------------------------------ |
+| [Setup](./setup/README.md)                                                   |   3 min    | [Link](https://generalassembly.wistia.com/medias/kam9jpjgxg) | Setting up the development environment.                                                                            |
+| [Concepts](./concepts/README.md)                                             |   2 min    | [Link](https://generalassembly.wistia.com/medias/akpwl29l9i) | Intro to the concept of responsive web design.                                                                     |
+| [Implementation Examples](./implementation-examples/README.md)               |   4 min    | [Link](https://generalassembly.wistia.com/medias/s2rf9r81mn) | Examining real-world examples of responsive design.                                                                |
+| [Accounting for Mobile Devices](./accounting-for-mobile-devices/README.md)   |   4 min    | [Link](https://generalassembly.wistia.com/medias/w89mclc8kk) | Mobile-first design philosophy, viewport meta tag for mobile.                                                      |
+| [Media Queries](./media-queries/README.md)                                   |   14 min   | [Link](https://generalassembly.wistia.com/medias/t7cboy1qhe) | Using media queries and breakpoints to create responsive pages.                                                    |
+| [Nav Bar Media Query](./nav-bar-media-query/README.md)                       |   6 min    | [Link](https://generalassembly.wistia.com/medias/93iml1u7ri) | Implement a responsive hamburger navbar using media queries.                                                       |
+| [Best Practices](./best-practices/README.md)                                 |   5 min    | [Link](https://generalassembly.wistia.com/medias/9kf21legun) | Testing on different devices in the browser, progressive design.                                                   |
+| [Functional Hamburger Nav Walkthrough](./functional-hamburger-nav/README.md) |   17 min   | [Link](https://generalassembly.wistia.com/medias/nrbhtb7s8c) | Create a fully functional hamburger menu in pure CSS.                                                              |
+| [Product Cards Flexbox Walkthrough](./product-cards-flex/README.md)          |   13 min   | [Link](https://generalassembly.wistia.com/medias/nyxxmmb7f5) | Using Flexbox for product card layout; inserting and attributing icons; adding and styling HTML elements.          |
+| [A Media Query Free Future](./a-media-query-free-future/README.md)           |   2 min    | [Link](https://generalassembly.wistia.com/medias/se5ud2y3g3) | Limitations of media queries; introduction to CSS math functions like `clamp()`, `min()`, `max()`, and `minmax()`. |
+| **Total content**                                                            |   70 min   |                                                              |                                                                                                                    |
 
 ## References
 
 📖 [Reference Materials](./references/README.md)
 
-## Deployed examples
+## Internal
+
+### Prerequisites
+
+- Intro to HTML
+- Intro to CSS
+
+### Deployed sites
 
 🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
 
-📦 [Repo](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
+🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
 
-## Internal resources
+### Github Pages Sites
+
+- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/seb)
+
+### Resources
 
 ✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
@@ -53,4 +57,4 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback)!**

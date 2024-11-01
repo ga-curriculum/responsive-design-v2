@@ -1,4 +1,7 @@
-# ![Responsive Design - Implementation Examples](./assets/hero.png)
+<h1>
+  <span class="headline">Responsive Design</span>
+  <span class="subhead">Implementation Examples</span>
+</h1>
 
 **Learning objective:** By the end of this lesson, students will be able to identify examples of responsive design in real-world websites and understand how they tailor user experience based on device type.
 

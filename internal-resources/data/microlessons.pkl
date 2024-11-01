@@ -1,0 +1,74 @@
+import "https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/static/v2/pkl/template.pkl" as Template
+
+// Add microlessons here, in the order they should be delivered
+
+setup = new Template.Microlesson {
+  friendlyName = "Setup"
+  dirName = "setup"
+  type = "Content"
+  videoUrl = ""
+}
+
+concepts = new Template.Microlesson {
+  friendlyName = "Concepts"
+  dirName = "concepts"
+  type = "Content"
+  videoUrl = ""
+}
+
+implementationExamples = new Template.Microlesson {
+  friendlyName = "Implementation Examples"
+  dirName = "implementation-examples"
+  type = "Content"
+  videoUrl = ""
+}
+
+accountingForMobileDevices = new Template.Microlesson {
+  friendlyName = "Accounting for Mobile Devices"
+  dirName = "accounting-for-mobile-devices"
+  type = "Content"
+  videoUrl = ""
+}
+
+mediaQueries = new Template.Microlesson {
+  friendlyName = "Media Queries"
+  dirName = "media-queries"
+  type = "Content"
+  videoUrl = ""
+}
+
+navBarMediaQuery = new Template.Microlesson {
+  friendlyName = "Nav Bar Media Query"
+  dirName = "nav-bar-media-query"
+  type = "Content"
+  videoUrl = ""
+}
+
+bestPractices = new Template.Microlesson {
+  friendlyName = "Best Practices"
+  dirName = "best-practices"
+  type = "Content"
+  videoUrl = ""
+}
+
+functionalHamburgerNav = new Template.Microlesson {
+  friendlyName = "Functional Hamburger Nav"
+  dirName = "functional-hamburger-nav"
+  type = "Content"
+  videoUrl = ""
+}
+
+productCardsFlex = new Template.Microlesson {
+  friendlyName = "Product Cards Flex"
+  dirName = "product-cards-flex"
+  type = "Content"
+  videoUrl = ""
+}
+
+aMediaQueryFreeFuture = new Template.Microlesson {
+  friendlyName = "A Media Query Free Future"
+  dirName = "a-media-query-free-future"
+  type = "Content"
+  videoUrl = ""
+}
+

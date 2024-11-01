@@ -38,7 +38,7 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ### Deployed sites
 
-🌐 [Live site](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
 
 🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
 

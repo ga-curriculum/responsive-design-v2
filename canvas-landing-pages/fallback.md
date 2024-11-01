@@ -29,3 +29,7 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 ## References
 
 📖 [Reference Materials](../references/README.md)
+
+## Deployed sites
+
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)

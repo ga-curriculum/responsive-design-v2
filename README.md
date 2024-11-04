@@ -36,13 +36,15 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 - Intro to HTML
 - Intro to CSS
 
+### Solution code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/responsive-design-solution-code)
+
 ### Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
+🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design-solution-code/)
 
-🐙 [Repository](https://git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed)
-
-### Github Pages Sites
+### Course landing pages
 
 - [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/fallback)
 - [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/seb)

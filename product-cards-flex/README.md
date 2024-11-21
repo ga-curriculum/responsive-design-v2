@@ -3,9 +3,11 @@
   <span class="subhead">Product Cards Flex</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, the learner will be able to implement a responsive product card layout using Flexbox, while adhering to proper attribution requirements for third-party assets.
+**Learning objective:** By the end of this lesson, the learner will be able to implement a responsive product card layout using Flexbox while adhering to proper attribution requirements for third-party assets.
 
-Remember that awesome hamburger menu we built in the `Functional Hamburger Nav` lesson? In this lesson we'll add content and responsiveness to the main content of our site using only Flexbox!
+## Responsive design using Flexbox
+
+In this lesson, we'll add content and responsiveness to the main content of our site using only Flexbox!
 
 In `index.html`, add the following code below the closing `</header>` tag:
 
@@ -50,7 +52,7 @@ In `index.html`, add the following code below the closing `</header>` tag:
 </main>
 ```
 
-We've now added a few cards with links to icons from [Flaticon](https://www.flaticon.com/), a fantastic resource for finding high-quality, free icons and assets to enhance your projects. However, it's important to note that Flaticon has strict attribution requirements, so make sure to properly credit them in your work.
+We've now added a few cards with links to icons from [Flaticon](https://www.flaticon.com/), a fantastic resource for finding high-quality, free icons and assets to enhance your projects. However, it's important to note that Flaticon has strict attribution requirements, so properly credit them in your work.
 
 Our output should look like this:
 
@@ -70,7 +72,7 @@ Moving on, let's style our `.brand-text` `<div>`. In `css/style.css`, add the fo
 }
 ```
 
-Having transformed our `.brand-text` `<div>` into a Flexbox and centered the `<h1>` element within it, let's now focus on styling our `.card-container` `<div>`. This `<div>` houses each individual card, and the styling rules we apply will make it responsive without the need for a media query.
+Having transformed our `.brand-text` `<div>` into a Flexbox and centered the `<h1>` element within it, let's now focus on styling our `.card-container` `<div>`. This `<div>` houses each card, and our styling rules will make it responsive without needing a media query.
 
 Add the following code:
 
@@ -85,11 +87,11 @@ Add the following code:
 }
 ```
 
-The key element here is `flex-wrap: wrap`, which instructs our Flexbox to display its contents as a grid if the screen width permits, and as a column when the user's screen is too narrow to accommodate more than one card.
+The key element here is `flex-wrap: wrap`, which instructs our Flexbox to display its contents as a grid if the screen width permits and as a column when the user's screen is too narrow to accommodate more than one card.
 
-The `flex-wrap` property in CSS controls how flex items are wrapped within a flex container. Setting `flex-wrap: wrap` allows the flex items to wrap onto multiple lines when the container's width is not sufficient to accommodate all items in a single row. This ensures that the items remain responsive and adjust their layout based on the available screen space.
+The `flex-wrap` property in CSS controls how flex items are wrapped within a flex container. Setting `flex-wrap: wrap` allows the flex items to wrap onto multiple lines when the container's width is insufficient to accommodate all items in a single row. This ensures that the items remain responsive and their layout is adjusted based on the available screen space.
 
-Our output looks a little funky right now, but after we style the individual cards it will look a lot better!
+Our output looks funky right now, but it will look much better after we style the individual cards!
 
 ![Unstyled flexwrap](./assets/unstyled-flexwrap.png)
 
@@ -126,4 +128,4 @@ That looks better!
 
 ![Styled cards](./assets/styled-cards.png)
 
-To achieve this look, we applied additional Flexbox styling to each individual card, defined a fixed `width`, incorporated `padding` and `margin`, and applied a `border-radius`. We also styled the caption text for each card and set a fixed size for the `<img>` elements within each card.
+We applied additional Flexbox styling to each card to achieve this look, defined a fixed `width`, incorporated `padding` and `margin`, and applied a `border-radius`. We also styled the caption text for each card and set a fixed size for the `<img>` elements within each card.

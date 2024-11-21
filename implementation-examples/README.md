@@ -17,8 +17,8 @@ A call to action is a prompt that urges a user to take a specific action. Typica
 
 Some of the techniques Shopify used to accomplish this are as follows:
 
-- Responsive image: The background image for mobile is much smaller than in desktop.
-- Responsive nav bar: The nav stretches across the screen on a desktop view. On mobile, it's initially hidden, and users can press a hamburger icon to show it.
+- Responsive image: The background image for mobile is much smaller than on a desktop.
+- Responsive nav bar: The nav stretches across the screen in the desktop view. The nav is initially hidden on mobile devices, but users can press the hamburger icon to show it.
 - Layout orientation: The "Start free trial" and "Watch the Shopify story" buttons are positioned horizontally across from each other on the desktop. On mobile, they are stacked vertically. It's typical to display most content vertically for mobile devices, given the limited width of their screens.
 
 ![Shopify](./assets/shopify.png)
@@ -27,7 +27,7 @@ Another example of a responsive site is one you've become familiar with - [GitHu
 
 GitHub's responsive design goes further than just design considerations. Their responsive design goes as far as hiding certain features on mobile devices. This works for GitHub's users because the likelihood of someone wanting to create a repo on a mobile device is minimal.
 
-While their users may not create repos from their mobile devices, they will likely use its social features. Therefore, these features are given more prominence.
+While their users may not create repositories from their mobile devices, they will likely use its social features. Therefore, these features are given more prominence.
 
 ![GitHub](./assets/github.png)
 

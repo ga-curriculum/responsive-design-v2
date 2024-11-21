@@ -30,7 +30,7 @@ Next, add the following inside of your `<body>` tags. Feel free to copy this fro
 </nav>
 ```
 
-We will using a mobile-first design. Therefore, the CSS we write outside our media queries will target smaller screens. We'll then write new CSS in our media queries that targets larger screens. Let's start with some CSS to handle the `<nav>` we just created:
+We will use a mobile-first design. Therefore, the CSS we write outside our media queries will target smaller screens. We'll then write new CSS in our media queries that targets larger screens. Let's start with some CSS to handle the `<nav>` we just created:
 
 ```css
 nav {

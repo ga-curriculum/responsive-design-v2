@@ -3,7 +3,7 @@
   <span class="subhead">Media Queries</span>
 </h1>
 
-**Learning objective:** By the end of this lesson, students will utilize media queries and breakpoints for creating responsive web designs.
+**Learning objective:** By the end of this lesson, students will utilize media queries and breakpoints to create responsive web designs.
 
 ## Using media queries to apply different CSS rules to a page
 
@@ -43,7 +43,7 @@ Breakpoints are the specific screen sizes or conditions we use to create media q
 - Desktop: 768px - 1199px
 - Large desktop: 1200px+
 
-While the above values are good general guidelines, it's important to recognize that desktop users can resize their browser window to any width. Also, nothing stops a phone manufacturer from making a phone that doesn't conform to the above rules. For example the iPhone 15 Pro Max has a viewport width of over 800 pixels in landscape orientation, putting it firmly into our supposed desktop viewport territory.
+While the above values are good general guidelines, it's important to recognize that desktop users can resize their browser window to any width. Also, nothing stops a phone manufacturer from making a phone that doesn't conform to the above rules. For example, the iPhone 16 Pro Max has a viewport width of over 800 pixels in landscape orientation, putting it firmly in our supposed desktop viewport territory.
 
 Therefore, you should focus your energy on making breakpoints that make sense for your application, and you should always choose breakpoints based on a site's content.
 
@@ -145,4 +145,4 @@ body {
 
 When the screen is 800 pixels or larger, the background color will change to `gainsboro`, as we originally intended.
 
-The big takeaway is that, like always, the order in which you write your CSS matters. However, media queries add layers of complication you must also consider. Media queries should always appear after all other CSS, and it's important to test your implementation of them.
+The big takeaway is that, like always, the order in which you write your CSS matters. However, media queries add a layer of complication you must also consider. Media queries should always appear after all other CSS, and it's important to test your implementation of them.

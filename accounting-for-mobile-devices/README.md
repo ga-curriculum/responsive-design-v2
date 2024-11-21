@@ -19,11 +19,11 @@ Typically, a mobile-first approach (#2 above) is preferable for a few reasons:
 
 ## The first step to enabling a better experience on mobile
 
-Unlike desktop browsers that essentially render pixel-by-pixel, mobile browsers render to a virtual viewport. The virtual viewport is what enables pinch-to-zoom on mobile browsers. Mobile browsers scale down page content to fit it into the viewport by default.
+Unlike desktop browsers that essentially render pixel-by-pixel, mobile browsers render to a virtual viewport. The virtual viewport enables pinch-to-zoom on mobile browsers. Mobile browsers scale down page content to fit it into the viewport by default.
 
 This default results in tiny text that may be hard to read but does at least make older sites usable with pinch-to-zoom. This was necessary when mobile devices with fully-featured browsers were first released since websites weren't built to work on mobile devices.
 
-So, how do you get a website to feel native to a mobile device?
+So, how do you make a website feel native on a mobile device?
 
 ### Viewport `meta` tag
 

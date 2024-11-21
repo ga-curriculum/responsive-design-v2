@@ -7,7 +7,7 @@
 
 ## Background
 
-While it's now in the distant past, building a successful online presence used to only mean ensuring that a website worked correctly on a few desktop browsers. The mobile internet looked like this:
+While it's now in the distant past, building a successful online presence used to mean ensuring that a website worked correctly on a few desktop browsers. The mobile internet looked like this:
 
 ![Motorolla Razr 2005](./assets/originals/razr.png)
 > The mobile internet in 2005. Image: [Wired](https://www.wired.com/2008/07/mobile-browsing/)
@@ -27,6 +27,6 @@ Whether you're aware or not, you encounter examples of responsive design every t
 
 ## Why implement responsive design?
 
-Non-traditional interfaces have skyrocketed in popularity, and users access the web from all kinds of devices. Responsive design ensures that more people can use our applications to begin with. Furthermore, it enables them to have a positive experience using our apps, regardless of how they interact with them.
+Non-traditional interfaces have skyrocketed in popularity, and users access the web from all kinds of devices. Responsive design ensures that more people can use our applications. Furthermore, it enables them to have a positive experience using our apps, regardless of how they interact with them.
 
-That's not to say there are no challenges to implementing responsive design. By its nature, implementing responsive design requires more planning, more code, and more testing. The benefits typically outweigh the challenges though, and it is an essential consideration for any website or app.
+That's not to say there are no challenges to implementing responsive design. By its nature, implementing responsive design requires more planning, more code, and more testing. The benefits typically outweigh the challenges, and it is an essential consideration for any website or app.

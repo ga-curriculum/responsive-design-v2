@@ -42,12 +42,12 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ### Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design-solution-code/)
+🌐 [Live Example](https://ga-curriculum.github.io/responsive-design-solution-code/)
 
 ### Course landing pages
 
-- [Default Landing Page](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/fallback)
-- [SEB - Software Engineering Bootcamp](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/responsive-design/canvas-landing-pages/seb)
+- [Default Landing Page](https://ga-curriculum.github.io/responsive-design/canvas-landing-pages/fallback)
+- [SEB - Software Engineering Bootcamp](https://ga-curriculum.github.io/responsive-design/canvas-landing-pages/seb)
 
 ### Resources
 
@@ -59,4 +59,4 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback)!**

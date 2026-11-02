@@ -32,4 +32,4 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ## Deployed sites
 
-🌐 [Live Example](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/functional-hamburger-nav-deployed/)
+🌐 [Live Example](https://ga-curriculum.github.io/responsive-design-solution-code/)

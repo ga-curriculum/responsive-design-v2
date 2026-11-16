@@ -38,7 +38,7 @@ For those looking to refine their skills, the Level Up content digs deeper into 
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/responsive-design-solution-code)
+🏁 [Solution code](https://github.com/ga-curriculum/responsive-design-solution-code)
 
 ### Deployed sites
 
